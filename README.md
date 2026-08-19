@@ -1,6 +1,6 @@
 # 大模型的"命根子"：拆掉10%，它崩溃136倍
 
-*Part of the **YUNSHAO series · 云韶系列** — 元结构框架在大模型注意力（large language model attention）领域的投影。本系列共5篇独立论文，各自自成证据链，详见文末「本系列全貌」。*
+*Part of **云韶AI研究院（YUNSHAO AI Research）** 系列 — 元结构框架在大模型注意力（large language model attention）领域的投影。本系列共5篇独立论文，各自自成证据链，详见文末「本系列全貌」。*
 
 
 **We mapped which attention heads are load-bearing. Remove 10% of them — the model breaks 136×.**
@@ -31,7 +31,7 @@
 | English | Long-Context-LLM-Attention-Hamiltonian-Virtual-Edges-EN-20260819.pdf |
 
 
-## 本系列全貌 · The YUNSHAO Series
+## 本系列全貌 · 云韶AI研究院 YUNSHAO AI Research Series
 
 一个元结构框架，五个领域的独立投影。每一篇都自成证据链、可独立验证——任何一篇被质疑时，框架仍在。
 
