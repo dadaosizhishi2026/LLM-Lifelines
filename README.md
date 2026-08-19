@@ -1,5 +1,8 @@
 # 大模型的"命根子"：拆掉10%，它崩溃136倍
 
+*Part of the **YUNSHAO series · 云韶系列** — 元结构框架在大模型注意力（large language model attention）领域的投影。本系列共5篇独立论文，各自自成证据链，详见文末「本系列全貌」。*
+
+
 **We mapped which attention heads are load-bearing. Remove 10% of them — the model breaks 136×.**
 
 大模型里成千上万个注意力头，哪些是承重墙？这篇论文给出了地图——并且用 Qwen2.5-0.5B 和 7B 实测验证：
@@ -26,6 +29,29 @@
 |----------|------|
 | 中文 | 哈密顿LLM注意力增强·专业重制版-对外学术-20260819.pdf |
 | English | Long-Context-LLM-Attention-Hamiltonian-Virtual-Edges-EN-20260819.pdf |
+
+
+## 本系列全貌 · The YUNSHAO Series
+
+一个元结构框架，五个领域的独立投影。每一篇都自成证据链、可独立验证——任何一篇被质疑时，框架仍在。
+
+```mermaid
+graph TB
+    MS["元结构框架 Meta-Structure Framework"]
+    MS --> SteelStrongerThanCarbonFiber["材料科学 · 比碳纤维还强的不锈钢<br/>推演待验证"]
+    MS --> HiddenUnityofMath["纯数学 · 两个数学分支，同一个源头<br/>可手算验证"]
+    MS --> LLMLifelines["大模型注意力 · 大模型的命根子<br/>Qwen实测"]
+    MS --> SuperconductivityBeyondPairing["凝聚态物理 · 超导不靠配对<br/>待实验检验"]
+    MS --> FiveConstantsOneSource["基础物理 · 五个常数一个源头<br/>与数据偏差<0.2%"]
+```
+
+| # | 领域 | 论文 | 仓库 | 验证状态 |
+|---|------|------|------|---------|
+| 1 | 材料科学 | 比碳纤维还强的不锈钢 | [Steel-Stronger-Than-Carbon-Fiber](https://github.com/dadaosizhishi2026/Steel-Stronger-Than-Carbon-Fiber) | 推演待验证 |
+| 2 | 纯数学 | 两个数学分支，同一个源头 | [Hidden-Unity-of-Math](https://github.com/dadaosizhishi2026/Hidden-Unity-of-Math) | 可手算验证 |
+| 3 | 大模型注意力 | 大模型的命根子 | [LLM-Lifelines](https://github.com/dadaosizhishi2026/LLM-Lifelines) | Qwen实测 |
+| 4 | 凝聚态物理 | 超导不靠配对 | [Superconductivity-Beyond-Pairing](https://github.com/dadaosizhishi2026/Superconductivity-Beyond-Pairing) | 待实验检验 |
+| 5 | 基础物理 | 五个常数一个源头 | [Five-Constants-One-Source](https://github.com/dadaosizhishi2026/Five-Constants-One-Source) | 与数据偏差<0.2% |
 
 *Academic exchange only. All thresholds are tunable parameters; full reproduction instructions included.*
 
