@@ -1,0 +1,2730 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 204,
+  "orig_perplexity": 18.06732749938965,
+  "layers": [
+    {
+      "layer": 0,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.724138,
+          "edge_density": 0.005071,
+          "mean_degree": 1.03
+        },
+        {
+          "head": 1,
+          "T_G": 1.0,
+          "edge_density": 0.0,
+          "mean_degree": 0.0
+        },
+        {
+          "head": 2,
+          "T_G": 0.935961,
+          "edge_density": 0.001159,
+          "mean_degree": 0.24
+        },
+        {
+          "head": 3,
+          "T_G": 0.980296,
+          "edge_density": 0.000483,
+          "mean_degree": 0.1
+        },
+        {
+          "head": 4,
+          "T_G": 0.37931,
+          "edge_density": 0.016275,
+          "mean_degree": 3.3
+        },
+        {
+          "head": 5,
+          "T_G": 0.369458,
+          "edge_density": 0.015213,
+          "mean_degree": 3.09
+        },
+        {
+          "head": 6,
+          "T_G": 0.665025,
+          "edge_density": 0.005699,
+          "mean_degree": 1.16
+        },
+        {
+          "head": 7,
+          "T_G": 0.704433,
+          "edge_density": 0.011881,
+          "mean_degree": 2.41
+        },
+        {
+          "head": 8,
+          "T_G": 0.975369,
+          "edge_density": 0.004105,
+          "mean_degree": 0.83
+        },
+        {
+          "head": 9,
+          "T_G": 0.512315,
+          "edge_density": 0.009369,
+          "mean_degree": 1.9
+        },
+        {
+          "head": 10,
+          "T_G": 0.985222,
+          "edge_density": 0.000821,
+          "mean_degree": 0.17
+        },
+        {
+          "head": 11,
+          "T_G": 0.059113,
+          "edge_density": 0.009997,
+          "mean_degree": 2.03
+        },
+        {
+          "head": 12,
+          "T_G": 0.921182,
+          "edge_density": 0.002994,
+          "mean_degree": 0.61
+        },
+        {
+          "head": 13,
+          "T_G": 0.305419,
+          "edge_density": 0.010577,
+          "mean_degree": 2.15
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.418719,
+          "edge_density": 0.008548,
+          "mean_degree": 1.74
+        },
+        {
+          "head": 1,
+          "T_G": 0.82266,
+          "edge_density": 0.00367,
+          "mean_degree": 0.75
+        },
+        {
+          "head": 2,
+          "T_G": 0.576355,
+          "edge_density": 0.007099,
+          "mean_degree": 1.44
+        },
+        {
+          "head": 3,
+          "T_G": 0.945813,
+          "edge_density": 0.00227,
+          "mean_degree": 0.46
+        },
+        {
+          "head": 4,
+          "T_G": 0.64532,
+          "edge_density": 0.006182,
+          "mean_degree": 1.25
+        },
+        {
+          "head": 5,
+          "T_G": 0.926108,
+          "edge_density": 0.002222,
+          "mean_degree": 0.45
+        },
+        {
+          "head": 6,
+          "T_G": 0.679803,
+          "edge_density": 0.007824,
+          "mean_degree": 1.59
+        },
+        {
+          "head": 7,
+          "T_G": 0.945813,
+          "edge_density": 0.002077,
+          "mean_degree": 0.42
+        },
+        {
+          "head": 8,
+          "T_G": 0.310345,
+          "edge_density": 0.016855,
+          "mean_degree": 3.42
+        },
+        {
+          "head": 9,
+          "T_G": 0.152709,
+          "edge_density": 0.010818,
+          "mean_degree": 2.2
+        },
+        {
+          "head": 10,
+          "T_G": 0.935961,
+          "edge_density": 0.001449,
+          "mean_degree": 0.29
+        },
+        {
+          "head": 11,
+          "T_G": 0.699507,
+          "edge_density": 0.005989,
+          "mean_degree": 1.22
+        },
+        {
+          "head": 12,
+          "T_G": 0.955665,
+          "edge_density": 0.00256,
+          "mean_degree": 0.52
+        },
+        {
+          "head": 13,
+          "T_G": 0.985222,
+          "edge_density": 0.000724,
+          "mean_degree": 0.15
+        }
+      ]
+    },
+    {
+      "layer": 2,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.334975,
+          "edge_density": 0.009997,
+          "mean_degree": 2.03
+        },
+        {
+          "head": 1,
+          "T_G": 0.881773,
+          "edge_density": 0.005602,
+          "mean_degree": 1.14
+        },
+        {
+          "head": 2,
+          "T_G": 0.748768,
+          "edge_density": 0.005747,
+          "mean_degree": 1.17
+        },
+        {
+          "head": 3,
+          "T_G": 0.453202,
+          "edge_density": 0.009273,
+          "mean_degree": 1.88
+        },
+        {
+          "head": 4,
+          "T_G": 0.650246,
+          "edge_density": 0.005989,
+          "mean_degree": 1.22
+        },
+        {
+          "head": 5,
+          "T_G": 0.945813,
+          "edge_density": 0.001401,
+          "mean_degree": 0.28
+        },
+        {
+          "head": 6,
+          "T_G": 0.541872,
+          "edge_density": 0.012702,
+          "mean_degree": 2.58
+        },
+        {
+          "head": 7,
+          "T_G": 0.714286,
+          "edge_density": 0.006037,
+          "mean_degree": 1.23
+        },
+        {
+          "head": 8,
+          "T_G": 0.665025,
+          "edge_density": 0.005119,
+          "mean_degree": 1.04
+        },
+        {
+          "head": 9,
+          "T_G": 0.704433,
+          "edge_density": 0.00594,
+          "mean_degree": 1.21
+        },
+        {
+          "head": 10,
+          "T_G": 0.881773,
+          "edge_density": 0.004491,
+          "mean_degree": 0.91
+        },
+        {
+          "head": 11,
+          "T_G": 0.719212,
+          "edge_density": 0.005699,
+          "mean_degree": 1.16
+        },
+        {
+          "head": 12,
+          "T_G": 0.807882,
+          "edge_density": 0.003284,
+          "mean_degree": 0.67
+        },
+        {
+          "head": 13,
+          "T_G": 0.955665,
+          "edge_density": 0.003236,
+          "mean_degree": 0.66
+        }
+      ]
+    },
+    {
+      "layer": 3,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.807882,
+          "edge_density": 0.011736,
+          "mean_degree": 2.38
+        },
+        {
+          "head": 1,
+          "T_G": 0.566502,
+          "edge_density": 0.0085,
+          "mean_degree": 1.73
+        },
+        {
+          "head": 2,
+          "T_G": 0.916256,
+          "edge_density": 0.01077,
+          "mean_degree": 2.19
+        },
+        {
+          "head": 3,
+          "T_G": 0.970443,
+          "edge_density": 0.007099,
+          "mean_degree": 1.44
+        },
+        {
+          "head": 4,
+          "T_G": 0.788177,
+          "edge_density": 0.011977,
+          "mean_degree": 2.43
+        },
+        {
+          "head": 5,
+          "T_G": 0.975369,
+          "edge_density": 0.009997,
+          "mean_degree": 2.03
+        },
+        {
+          "head": 6,
+          "T_G": 0.916256,
+          "edge_density": 0.008017,
+          "mean_degree": 1.63
+        },
+        {
+          "head": 7,
+          "T_G": 0.546798,
+          "edge_density": 0.015551,
+          "mean_degree": 3.16
+        },
+        {
+          "head": 8,
+          "T_G": 0.812808,
+          "edge_density": 0.01106,
+          "mean_degree": 2.25
+        },
+        {
+          "head": 9,
+          "T_G": 0.980296,
+          "edge_density": 0.009901,
+          "mean_degree": 2.01
+        },
+        {
+          "head": 10,
+          "T_G": 0.990148,
+          "edge_density": 0.008017,
+          "mean_degree": 1.63
+        },
+        {
+          "head": 11,
+          "T_G": 0.753695,
+          "edge_density": 0.011784,
+          "mean_degree": 2.39
+        },
+        {
+          "head": 12,
+          "T_G": 0.699507,
+          "edge_density": 0.012702,
+          "mean_degree": 2.58
+        },
+        {
+          "head": 13,
+          "T_G": 0.842365,
+          "edge_density": 0.011832,
+          "mean_degree": 2.4
+        }
+      ]
+    },
+    {
+      "layer": 4,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.699507,
+          "edge_density": 0.012702,
+          "mean_degree": 2.58
+        },
+        {
+          "head": 1,
+          "T_G": 0.842365,
+          "edge_density": 0.010335,
+          "mean_degree": 2.1
+        },
+        {
+          "head": 2,
+          "T_G": 0.985222,
+          "edge_density": 0.007969,
+          "mean_degree": 1.62
+        },
+        {
+          "head": 3,
+          "T_G": 0.975369,
+          "edge_density": 0.007389,
+          "mean_degree": 1.5
+        },
+        {
+          "head": 4,
+          "T_G": 0.852217,
+          "edge_density": 0.009562,
+          "mean_degree": 1.94
+        },
+        {
+          "head": 5,
+          "T_G": 0.64532,
+          "edge_density": 0.013909,
+          "mean_degree": 2.82
+        },
+        {
+          "head": 6,
+          "T_G": 0.748768,
+          "edge_density": 0.011832,
+          "mean_degree": 2.4
+        },
+        {
+          "head": 7,
+          "T_G": 0.990148,
+          "edge_density": 0.006278,
+          "mean_degree": 1.27
+        },
+        {
+          "head": 8,
+          "T_G": 0.955665,
+          "edge_density": 0.008258,
+          "mean_degree": 1.68
+        },
+        {
+          "head": 9,
+          "T_G": 0.990148,
+          "edge_density": 0.008935,
+          "mean_degree": 1.81
+        },
+        {
+          "head": 10,
+          "T_G": 0.802956,
+          "edge_density": 0.007148,
+          "mean_degree": 1.45
+        },
+        {
+          "head": 11,
+          "T_G": 0.980296,
+          "edge_density": 0.004008,
+          "mean_degree": 0.81
+        },
+        {
+          "head": 12,
+          "T_G": 0.995074,
+          "edge_density": 0.001449,
+          "mean_degree": 0.29
+        },
+        {
+          "head": 13,
+          "T_G": 0.921182,
+          "edge_density": 0.003043,
+          "mean_degree": 0.62
+        }
+      ]
+    },
+    {
+      "layer": 5,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.990148,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 1,
+          "T_G": 0.773399,
+          "edge_density": 0.011494,
+          "mean_degree": 2.33
+        },
+        {
+          "head": 2,
+          "T_G": 0.985222,
+          "edge_density": 0.009562,
+          "mean_degree": 1.94
+        },
+        {
+          "head": 3,
+          "T_G": 0.970443,
+          "edge_density": 0.009997,
+          "mean_degree": 2.03
+        },
+        {
+          "head": 4,
+          "T_G": 0.812808,
+          "edge_density": 0.011011,
+          "mean_degree": 2.24
+        },
+        {
+          "head": 5,
+          "T_G": 0.896552,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 6,
+          "T_G": 0.980296,
+          "edge_density": 0.009321,
+          "mean_degree": 1.89
+        },
+        {
+          "head": 7,
+          "T_G": 0.975369,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 8,
+          "T_G": 0.955665,
+          "edge_density": 0.004298,
+          "mean_degree": 0.87
+        },
+        {
+          "head": 9,
+          "T_G": 0.990148,
+          "edge_density": 0.00483,
+          "mean_degree": 0.98
+        },
+        {
+          "head": 10,
+          "T_G": 0.960591,
+          "edge_density": 0.010045,
+          "mean_degree": 2.04
+        },
+        {
+          "head": 11,
+          "T_G": 0.955665,
+          "edge_density": 0.01019,
+          "mean_degree": 2.07
+        },
+        {
+          "head": 12,
+          "T_G": 0.832512,
+          "edge_density": 0.010287,
+          "mean_degree": 2.09
+        },
+        {
+          "head": 13,
+          "T_G": 0.940887,
+          "edge_density": 0.006713,
+          "mean_degree": 1.36
+        }
+      ]
+    },
+    {
+      "layer": 6,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.945813,
+          "edge_density": 0.009321,
+          "mean_degree": 1.89
+        },
+        {
+          "head": 1,
+          "T_G": 0.881773,
+          "edge_density": 0.004781,
+          "mean_degree": 0.97
+        },
+        {
+          "head": 2,
+          "T_G": 0.985222,
+          "edge_density": 0.007486,
+          "mean_degree": 1.52
+        },
+        {
+          "head": 3,
+          "T_G": 0.985222,
+          "edge_density": 0.00821,
+          "mean_degree": 1.67
+        },
+        {
+          "head": 4,
+          "T_G": 0.246305,
+          "edge_density": 0.016565,
+          "mean_degree": 3.36
+        },
+        {
+          "head": 5,
+          "T_G": 0.91133,
+          "edge_density": 0.006327,
+          "mean_degree": 1.28
+        },
+        {
+          "head": 6,
+          "T_G": 0.615764,
+          "edge_density": 0.013909,
+          "mean_degree": 2.82
+        },
+        {
+          "head": 7,
+          "T_G": 0.876847,
+          "edge_density": 0.009756,
+          "mean_degree": 1.98
+        },
+        {
+          "head": 8,
+          "T_G": 0.965517,
+          "edge_density": 0.009707,
+          "mean_degree": 1.97
+        },
+        {
+          "head": 9,
+          "T_G": 0.990148,
+          "edge_density": 0.008258,
+          "mean_degree": 1.68
+        },
+        {
+          "head": 10,
+          "T_G": 0.763547,
+          "edge_density": 0.013281,
+          "mean_degree": 2.7
+        },
+        {
+          "head": 11,
+          "T_G": 0.965517,
+          "edge_density": 0.010094,
+          "mean_degree": 2.05
+        },
+        {
+          "head": 12,
+          "T_G": 0.802956,
+          "edge_density": 0.011929,
+          "mean_degree": 2.42
+        },
+        {
+          "head": 13,
+          "T_G": 0.916256,
+          "edge_density": 0.008693,
+          "mean_degree": 1.76
+        }
+      ]
+    },
+    {
+      "layer": 7,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.684729,
+          "edge_density": 0.014102,
+          "mean_degree": 2.86
+        },
+        {
+          "head": 1,
+          "T_G": 0.866995,
+          "edge_density": 0.011639,
+          "mean_degree": 2.36
+        },
+        {
+          "head": 2,
+          "T_G": 0.896552,
+          "edge_density": 0.010673,
+          "mean_degree": 2.17
+        },
+        {
+          "head": 3,
+          "T_G": 0.714286,
+          "edge_density": 0.014682,
+          "mean_degree": 2.98
+        },
+        {
+          "head": 4,
+          "T_G": 0.960591,
+          "edge_density": 0.009273,
+          "mean_degree": 1.88
+        },
+        {
+          "head": 5,
+          "T_G": 0.891626,
+          "edge_density": 0.010963,
+          "mean_degree": 2.23
+        },
+        {
+          "head": 6,
+          "T_G": 0.793103,
+          "edge_density": 0.011639,
+          "mean_degree": 2.36
+        },
+        {
+          "head": 7,
+          "T_G": 0.768473,
+          "edge_density": 0.01246,
+          "mean_degree": 2.53
+        },
+        {
+          "head": 8,
+          "T_G": 0.8867,
+          "edge_density": 0.011156,
+          "mean_degree": 2.26
+        },
+        {
+          "head": 9,
+          "T_G": 0.73399,
+          "edge_density": 0.01304,
+          "mean_degree": 2.65
+        },
+        {
+          "head": 10,
+          "T_G": 0.729064,
+          "edge_density": 0.012412,
+          "mean_degree": 2.52
+        },
+        {
+          "head": 11,
+          "T_G": 0.881773,
+          "edge_density": 0.011156,
+          "mean_degree": 2.26
+        },
+        {
+          "head": 12,
+          "T_G": 0.837438,
+          "edge_density": 0.011108,
+          "mean_degree": 2.25
+        },
+        {
+          "head": 13,
+          "T_G": 0.970443,
+          "edge_density": 0.009514,
+          "mean_degree": 1.93
+        }
+      ]
+    },
+    {
+      "layer": 8,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.980296,
+          "edge_density": 0.009128,
+          "mean_degree": 1.85
+        },
+        {
+          "head": 1,
+          "T_G": 0.916256,
+          "edge_density": 0.007631,
+          "mean_degree": 1.55
+        },
+        {
+          "head": 2,
+          "T_G": 0.635468,
+          "edge_density": 0.009514,
+          "mean_degree": 1.93
+        },
+        {
+          "head": 3,
+          "T_G": 1.0,
+          "edge_density": 0.0,
+          "mean_degree": 0.0
+        },
+        {
+          "head": 4,
+          "T_G": 0.763547,
+          "edge_density": 0.012219,
+          "mean_degree": 2.48
+        },
+        {
+          "head": 5,
+          "T_G": 0.522167,
+          "edge_density": 0.014537,
+          "mean_degree": 2.95
+        },
+        {
+          "head": 6,
+          "T_G": 0.684729,
+          "edge_density": 0.012219,
+          "mean_degree": 2.48
+        },
+        {
+          "head": 7,
+          "T_G": 0.108374,
+          "edge_density": 0.01077,
+          "mean_degree": 2.19
+        },
+        {
+          "head": 8,
+          "T_G": 0.581281,
+          "edge_density": 0.014972,
+          "mean_degree": 3.04
+        },
+        {
+          "head": 9,
+          "T_G": 0.871921,
+          "edge_density": 0.011253,
+          "mean_degree": 2.28
+        },
+        {
+          "head": 10,
+          "T_G": 0.70936,
+          "edge_density": 0.012508,
+          "mean_degree": 2.54
+        },
+        {
+          "head": 11,
+          "T_G": 0.689655,
+          "edge_density": 0.01473,
+          "mean_degree": 2.99
+        },
+        {
+          "head": 12,
+          "T_G": 0.546798,
+          "edge_density": 0.017724,
+          "mean_degree": 3.6
+        },
+        {
+          "head": 13,
+          "T_G": 0.64532,
+          "edge_density": 0.015551,
+          "mean_degree": 3.16
+        }
+      ]
+    },
+    {
+      "layer": 9,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.62069,
+          "edge_density": 0.014199,
+          "mean_degree": 2.88
+        },
+        {
+          "head": 1,
+          "T_G": 0.970443,
+          "edge_density": 0.008452,
+          "mean_degree": 1.72
+        },
+        {
+          "head": 2,
+          "T_G": 0.82266,
+          "edge_density": 0.01048,
+          "mean_degree": 2.13
+        },
+        {
+          "head": 3,
+          "T_G": 0.950739,
+          "edge_density": 0.008741,
+          "mean_degree": 1.77
+        },
+        {
+          "head": 4,
+          "T_G": 0.931034,
+          "edge_density": 0.009611,
+          "mean_degree": 1.95
+        },
+        {
+          "head": 5,
+          "T_G": 0.586207,
+          "edge_density": 0.013474,
+          "mean_degree": 2.74
+        },
+        {
+          "head": 6,
+          "T_G": 0.921182,
+          "edge_density": 0.009418,
+          "mean_degree": 1.91
+        },
+        {
+          "head": 7,
+          "T_G": 0.990148,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 8,
+          "T_G": 0.8867,
+          "edge_density": 0.010866,
+          "mean_degree": 2.21
+        },
+        {
+          "head": 9,
+          "T_G": 0.990148,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 10,
+          "T_G": 0.871921,
+          "edge_density": 0.010915,
+          "mean_degree": 2.22
+        },
+        {
+          "head": 11,
+          "T_G": 0.871921,
+          "edge_density": 0.010915,
+          "mean_degree": 2.22
+        },
+        {
+          "head": 12,
+          "T_G": 0.980296,
+          "edge_density": 0.009514,
+          "mean_degree": 1.93
+        },
+        {
+          "head": 13,
+          "T_G": 0.763547,
+          "edge_density": 0.01106,
+          "mean_degree": 2.25
+        }
+      ]
+    },
+    {
+      "layer": 10,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.995074,
+          "edge_density": 0.008017,
+          "mean_degree": 1.63
+        },
+        {
+          "head": 1,
+          "T_G": 0.990148,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 2,
+          "T_G": 0.192118,
+          "edge_density": 0.018594,
+          "mean_degree": 3.77
+        },
+        {
+          "head": 3,
+          "T_G": 0.70936,
+          "edge_density": 0.01106,
+          "mean_degree": 2.25
+        },
+        {
+          "head": 4,
+          "T_G": 0.935961,
+          "edge_density": 0.009562,
+          "mean_degree": 1.94
+        },
+        {
+          "head": 5,
+          "T_G": 0.980296,
+          "edge_density": 0.002318,
+          "mean_degree": 0.47
+        },
+        {
+          "head": 6,
+          "T_G": 0.995074,
+          "edge_density": 0.000145,
+          "mean_degree": 0.03
+        },
+        {
+          "head": 7,
+          "T_G": 0.940887,
+          "edge_density": 0.007293,
+          "mean_degree": 1.48
+        },
+        {
+          "head": 8,
+          "T_G": 0.960591,
+          "edge_density": 0.008645,
+          "mean_degree": 1.75
+        },
+        {
+          "head": 9,
+          "T_G": 0.960591,
+          "edge_density": 0.003187,
+          "mean_degree": 0.65
+        },
+        {
+          "head": 10,
+          "T_G": 0.921182,
+          "edge_density": 0.006568,
+          "mean_degree": 1.33
+        },
+        {
+          "head": 11,
+          "T_G": 0.679803,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 12,
+          "T_G": 0.729064,
+          "edge_density": 0.010287,
+          "mean_degree": 2.09
+        },
+        {
+          "head": 13,
+          "T_G": 0.965517,
+          "edge_density": 0.007003,
+          "mean_degree": 1.42
+        }
+      ]
+    },
+    {
+      "layer": 11,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.842365,
+          "edge_density": 0.008065,
+          "mean_degree": 1.64
+        },
+        {
+          "head": 1,
+          "T_G": 0.926108,
+          "edge_density": 0.01048,
+          "mean_degree": 2.13
+        },
+        {
+          "head": 2,
+          "T_G": 0.807882,
+          "edge_density": 0.009369,
+          "mean_degree": 1.9
+        },
+        {
+          "head": 3,
+          "T_G": 0.985222,
+          "edge_density": 0.008645,
+          "mean_degree": 1.75
+        },
+        {
+          "head": 4,
+          "T_G": 0.866995,
+          "edge_density": 0.009418,
+          "mean_degree": 1.91
+        },
+        {
+          "head": 5,
+          "T_G": 0.901478,
+          "edge_density": 0.006955,
+          "mean_degree": 1.41
+        },
+        {
+          "head": 6,
+          "T_G": 0.931034,
+          "edge_density": 0.00792,
+          "mean_degree": 1.61
+        },
+        {
+          "head": 7,
+          "T_G": 0.990148,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 8,
+          "T_G": 0.970443,
+          "edge_density": 0.009418,
+          "mean_degree": 1.91
+        },
+        {
+          "head": 9,
+          "T_G": 0.950739,
+          "edge_density": 0.010287,
+          "mean_degree": 2.09
+        },
+        {
+          "head": 10,
+          "T_G": 0.881773,
+          "edge_density": 0.011156,
+          "mean_degree": 2.26
+        },
+        {
+          "head": 11,
+          "T_G": 0.990148,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 12,
+          "T_G": 0.832512,
+          "edge_density": 0.011349,
+          "mean_degree": 2.3
+        },
+        {
+          "head": 13,
+          "T_G": 0.990148,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        }
+      ]
+    },
+    {
+      "layer": 12,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.995074,
+          "edge_density": 0.000338,
+          "mean_degree": 0.07
+        },
+        {
+          "head": 1,
+          "T_G": 0.995074,
+          "edge_density": 0.00256,
+          "mean_degree": 0.52
+        },
+        {
+          "head": 2,
+          "T_G": 0.862069,
+          "edge_density": 0.008693,
+          "mean_degree": 1.76
+        },
+        {
+          "head": 3,
+          "T_G": 0.990148,
+          "edge_density": 0.009756,
+          "mean_degree": 1.98
+        },
+        {
+          "head": 4,
+          "T_G": 0.990148,
+          "edge_density": 0.009273,
+          "mean_degree": 1.88
+        },
+        {
+          "head": 5,
+          "T_G": 0.985222,
+          "edge_density": 0.002994,
+          "mean_degree": 0.61
+        },
+        {
+          "head": 6,
+          "T_G": 0.901478,
+          "edge_density": 0.003767,
+          "mean_degree": 0.76
+        },
+        {
+          "head": 7,
+          "T_G": 0.79803,
+          "edge_density": 0.007824,
+          "mean_degree": 1.59
+        },
+        {
+          "head": 8,
+          "T_G": 0.399015,
+          "edge_density": 0.015068,
+          "mean_degree": 3.06
+        },
+        {
+          "head": 9,
+          "T_G": 0.802956,
+          "edge_density": 0.00879,
+          "mean_degree": 1.78
+        },
+        {
+          "head": 10,
+          "T_G": 0.881773,
+          "edge_density": 0.006858,
+          "mean_degree": 1.39
+        },
+        {
+          "head": 11,
+          "T_G": 0.881773,
+          "edge_density": 0.0085,
+          "mean_degree": 1.73
+        },
+        {
+          "head": 12,
+          "T_G": 0.600985,
+          "edge_density": 0.013861,
+          "mean_degree": 2.81
+        },
+        {
+          "head": 13,
+          "T_G": 0.935961,
+          "edge_density": 0.00681,
+          "mean_degree": 1.38
+        }
+      ]
+    },
+    {
+      "layer": 13,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.802956,
+          "edge_density": 0.008693,
+          "mean_degree": 1.76
+        },
+        {
+          "head": 1,
+          "T_G": 0.497537,
+          "edge_density": 0.014633,
+          "mean_degree": 2.97
+        },
+        {
+          "head": 2,
+          "T_G": 0.876847,
+          "edge_density": 0.010818,
+          "mean_degree": 2.2
+        },
+        {
+          "head": 3,
+          "T_G": 0.995074,
+          "edge_density": 0.001642,
+          "mean_degree": 0.33
+        },
+        {
+          "head": 4,
+          "T_G": 0.748768,
+          "edge_density": 0.011108,
+          "mean_degree": 2.25
+        },
+        {
+          "head": 5,
+          "T_G": 0.980296,
+          "edge_density": 0.004491,
+          "mean_degree": 0.91
+        },
+        {
+          "head": 6,
+          "T_G": 0.945813,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 7,
+          "T_G": 0.980296,
+          "edge_density": 0.009611,
+          "mean_degree": 1.95
+        },
+        {
+          "head": 8,
+          "T_G": 0.985222,
+          "edge_density": 0.009901,
+          "mean_degree": 2.01
+        },
+        {
+          "head": 9,
+          "T_G": 0.906404,
+          "edge_density": 0.010577,
+          "mean_degree": 2.15
+        },
+        {
+          "head": 10,
+          "T_G": 0.906404,
+          "edge_density": 0.009707,
+          "mean_degree": 1.97
+        },
+        {
+          "head": 11,
+          "T_G": 0.960591,
+          "edge_density": 0.009224,
+          "mean_degree": 1.87
+        },
+        {
+          "head": 12,
+          "T_G": 0.970443,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 13,
+          "T_G": 0.91133,
+          "edge_density": 0.009997,
+          "mean_degree": 2.03
+        }
+      ]
+    },
+    {
+      "layer": 14,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.807882,
+          "edge_density": 0.010577,
+          "mean_degree": 2.15
+        },
+        {
+          "head": 1,
+          "T_G": 0.995074,
+          "edge_density": 0.000193,
+          "mean_degree": 0.04
+        },
+        {
+          "head": 2,
+          "T_G": 0.605911,
+          "edge_density": 0.012122,
+          "mean_degree": 2.46
+        },
+        {
+          "head": 3,
+          "T_G": 0.940887,
+          "edge_density": 0.007776,
+          "mean_degree": 1.58
+        },
+        {
+          "head": 4,
+          "T_G": 0.862069,
+          "edge_density": 0.008114,
+          "mean_degree": 1.65
+        },
+        {
+          "head": 5,
+          "T_G": 0.955665,
+          "edge_density": 0.007051,
+          "mean_degree": 1.43
+        },
+        {
+          "head": 6,
+          "T_G": 0.827586,
+          "edge_density": 0.010045,
+          "mean_degree": 2.04
+        },
+        {
+          "head": 7,
+          "T_G": 0.793103,
+          "edge_density": 0.006327,
+          "mean_degree": 1.28
+        },
+        {
+          "head": 8,
+          "T_G": 0.965517,
+          "edge_density": 0.005023,
+          "mean_degree": 1.02
+        },
+        {
+          "head": 9,
+          "T_G": 0.926108,
+          "edge_density": 0.005554,
+          "mean_degree": 1.13
+        },
+        {
+          "head": 10,
+          "T_G": 0.995074,
+          "edge_density": 0.000773,
+          "mean_degree": 0.16
+        },
+        {
+          "head": 11,
+          "T_G": 0.812808,
+          "edge_density": 0.008162,
+          "mean_degree": 1.66
+        },
+        {
+          "head": 12,
+          "T_G": 0.926108,
+          "edge_density": 0.00594,
+          "mean_degree": 1.21
+        },
+        {
+          "head": 13,
+          "T_G": 0.916256,
+          "edge_density": 0.00454,
+          "mean_degree": 0.92
+        }
+      ]
+    },
+    {
+      "layer": 15,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.965517,
+          "edge_density": 0.002463,
+          "mean_degree": 0.5
+        },
+        {
+          "head": 1,
+          "T_G": 0.980296,
+          "edge_density": 0.005795,
+          "mean_degree": 1.18
+        },
+        {
+          "head": 2,
+          "T_G": 0.064039,
+          "edge_density": 0.013523,
+          "mean_degree": 2.75
+        },
+        {
+          "head": 3,
+          "T_G": 0.586207,
+          "edge_density": 0.012122,
+          "mean_degree": 2.46
+        },
+        {
+          "head": 4,
+          "T_G": 0.748768,
+          "edge_density": 0.011446,
+          "mean_degree": 2.32
+        },
+        {
+          "head": 5,
+          "T_G": 0.714286,
+          "edge_density": 0.012653,
+          "mean_degree": 2.57
+        },
+        {
+          "head": 6,
+          "T_G": 0.970443,
+          "edge_density": 0.00821,
+          "mean_degree": 1.67
+        },
+        {
+          "head": 7,
+          "T_G": 0.970443,
+          "edge_density": 0.004878,
+          "mean_degree": 0.99
+        },
+        {
+          "head": 8,
+          "T_G": 0.901478,
+          "edge_density": 0.007631,
+          "mean_degree": 1.55
+        },
+        {
+          "head": 9,
+          "T_G": 0.802956,
+          "edge_density": 0.00792,
+          "mean_degree": 1.61
+        },
+        {
+          "head": 10,
+          "T_G": 0.891626,
+          "edge_density": 0.01019,
+          "mean_degree": 2.07
+        },
+        {
+          "head": 11,
+          "T_G": 0.91133,
+          "edge_density": 0.008693,
+          "mean_degree": 1.76
+        },
+        {
+          "head": 12,
+          "T_G": 0.950739,
+          "edge_density": 0.010722,
+          "mean_degree": 2.18
+        },
+        {
+          "head": 13,
+          "T_G": 0.921182,
+          "edge_density": 0.006858,
+          "mean_degree": 1.39
+        }
+      ]
+    },
+    {
+      "layer": 16,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.896552,
+          "edge_density": 0.010094,
+          "mean_degree": 2.05
+        },
+        {
+          "head": 1,
+          "T_G": 0.985222,
+          "edge_density": 0.009852,
+          "mean_degree": 2.0
+        },
+        {
+          "head": 2,
+          "T_G": 0.8867,
+          "edge_density": 0.010577,
+          "mean_degree": 2.15
+        },
+        {
+          "head": 3,
+          "T_G": 0.945813,
+          "edge_density": 0.010142,
+          "mean_degree": 2.06
+        },
+        {
+          "head": 4,
+          "T_G": 0.990148,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 5,
+          "T_G": 0.935961,
+          "edge_density": 0.010045,
+          "mean_degree": 2.04
+        },
+        {
+          "head": 6,
+          "T_G": 0.970443,
+          "edge_density": 0.009997,
+          "mean_degree": 2.03
+        },
+        {
+          "head": 7,
+          "T_G": 0.901478,
+          "edge_density": 0.009852,
+          "mean_degree": 2.0
+        },
+        {
+          "head": 8,
+          "T_G": 0.970443,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 9,
+          "T_G": 0.965517,
+          "edge_density": 0.010142,
+          "mean_degree": 2.06
+        },
+        {
+          "head": 10,
+          "T_G": 0.847291,
+          "edge_density": 0.011011,
+          "mean_degree": 2.24
+        },
+        {
+          "head": 11,
+          "T_G": 0.940887,
+          "edge_density": 0.009901,
+          "mean_degree": 2.01
+        },
+        {
+          "head": 12,
+          "T_G": 0.935961,
+          "edge_density": 0.010142,
+          "mean_degree": 2.06
+        },
+        {
+          "head": 13,
+          "T_G": 0.975369,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        }
+      ]
+    },
+    {
+      "layer": 17,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.921182,
+          "edge_density": 0.005312,
+          "mean_degree": 1.08
+        },
+        {
+          "head": 1,
+          "T_G": 0.975369,
+          "edge_density": 0.009901,
+          "mean_degree": 2.01
+        },
+        {
+          "head": 2,
+          "T_G": 0.960591,
+          "edge_density": 0.007872,
+          "mean_degree": 1.6
+        },
+        {
+          "head": 3,
+          "T_G": 0.921182,
+          "edge_density": 0.006037,
+          "mean_degree": 1.23
+        },
+        {
+          "head": 4,
+          "T_G": 0.945813,
+          "edge_density": 0.010045,
+          "mean_degree": 2.04
+        },
+        {
+          "head": 5,
+          "T_G": 0.990148,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 6,
+          "T_G": 0.921182,
+          "edge_density": 0.010625,
+          "mean_degree": 2.16
+        },
+        {
+          "head": 7,
+          "T_G": 0.980296,
+          "edge_density": 0.009852,
+          "mean_degree": 2.0
+        },
+        {
+          "head": 8,
+          "T_G": 0.926108,
+          "edge_density": 0.010625,
+          "mean_degree": 2.16
+        },
+        {
+          "head": 9,
+          "T_G": 0.857143,
+          "edge_density": 0.011446,
+          "mean_degree": 2.32
+        },
+        {
+          "head": 10,
+          "T_G": 0.724138,
+          "edge_density": 0.013571,
+          "mean_degree": 2.75
+        },
+        {
+          "head": 11,
+          "T_G": 0.8867,
+          "edge_density": 0.010866,
+          "mean_degree": 2.21
+        },
+        {
+          "head": 12,
+          "T_G": 0.980296,
+          "edge_density": 0.009901,
+          "mean_degree": 2.01
+        },
+        {
+          "head": 13,
+          "T_G": 0.684729,
+          "edge_density": 0.012943,
+          "mean_degree": 2.63
+        }
+      ]
+    },
+    {
+      "layer": 18,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.980296,
+          "edge_density": 0.009659,
+          "mean_degree": 1.96
+        },
+        {
+          "head": 1,
+          "T_G": 0.945813,
+          "edge_density": 0.01019,
+          "mean_degree": 2.07
+        },
+        {
+          "head": 2,
+          "T_G": 0.665025,
+          "edge_density": 0.014006,
+          "mean_degree": 2.84
+        },
+        {
+          "head": 3,
+          "T_G": 0.669951,
+          "edge_density": 0.014006,
+          "mean_degree": 2.84
+        },
+        {
+          "head": 4,
+          "T_G": 0.940887,
+          "edge_density": 0.009224,
+          "mean_degree": 1.87
+        },
+        {
+          "head": 5,
+          "T_G": 0.945813,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 6,
+          "T_G": 0.91133,
+          "edge_density": 0.010383,
+          "mean_degree": 2.11
+        },
+        {
+          "head": 7,
+          "T_G": 0.847291,
+          "edge_density": 0.011398,
+          "mean_degree": 2.31
+        },
+        {
+          "head": 8,
+          "T_G": 0.753695,
+          "edge_density": 0.01304,
+          "mean_degree": 2.65
+        },
+        {
+          "head": 9,
+          "T_G": 0.950739,
+          "edge_density": 0.006472,
+          "mean_degree": 1.31
+        },
+        {
+          "head": 10,
+          "T_G": 0.852217,
+          "edge_density": 0.008548,
+          "mean_degree": 1.74
+        },
+        {
+          "head": 11,
+          "T_G": 0.674877,
+          "edge_density": 0.011253,
+          "mean_degree": 2.28
+        },
+        {
+          "head": 12,
+          "T_G": 0.660099,
+          "edge_density": 0.013136,
+          "mean_degree": 2.67
+        },
+        {
+          "head": 13,
+          "T_G": 0.931034,
+          "edge_density": 0.008886,
+          "mean_degree": 1.8
+        }
+      ]
+    },
+    {
+      "layer": 19,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.73399,
+          "edge_density": 0.012605,
+          "mean_degree": 2.56
+        },
+        {
+          "head": 1,
+          "T_G": 0.679803,
+          "edge_density": 0.012364,
+          "mean_degree": 2.51
+        },
+        {
+          "head": 2,
+          "T_G": 0.906404,
+          "edge_density": 0.011156,
+          "mean_degree": 2.26
+        },
+        {
+          "head": 3,
+          "T_G": 0.502463,
+          "edge_density": 0.015261,
+          "mean_degree": 3.1
+        },
+        {
+          "head": 4,
+          "T_G": 0.773399,
+          "edge_density": 0.011349,
+          "mean_degree": 2.3
+        },
+        {
+          "head": 5,
+          "T_G": 0.655172,
+          "edge_density": 0.012702,
+          "mean_degree": 2.58
+        },
+        {
+          "head": 6,
+          "T_G": 0.91133,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 7,
+          "T_G": 0.975369,
+          "edge_density": 0.009562,
+          "mean_degree": 1.94
+        },
+        {
+          "head": 8,
+          "T_G": 0.990148,
+          "edge_density": 0.005747,
+          "mean_degree": 1.17
+        },
+        {
+          "head": 9,
+          "T_G": 0.62069,
+          "edge_density": 0.012557,
+          "mean_degree": 2.55
+        },
+        {
+          "head": 10,
+          "T_G": 0.73399,
+          "edge_density": 0.009852,
+          "mean_degree": 2.0
+        },
+        {
+          "head": 11,
+          "T_G": 0.403941,
+          "edge_density": 0.010866,
+          "mean_degree": 2.21
+        },
+        {
+          "head": 12,
+          "T_G": 0.871921,
+          "edge_density": 0.006085,
+          "mean_degree": 1.24
+        },
+        {
+          "head": 13,
+          "T_G": 0.921182,
+          "edge_density": 0.009659,
+          "mean_degree": 1.96
+        }
+      ]
+    },
+    {
+      "layer": 20,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.876847,
+          "edge_density": 0.010577,
+          "mean_degree": 2.15
+        },
+        {
+          "head": 1,
+          "T_G": 0.945813,
+          "edge_density": 0.007824,
+          "mean_degree": 1.59
+        },
+        {
+          "head": 2,
+          "T_G": 0.866995,
+          "edge_density": 0.00681,
+          "mean_degree": 1.38
+        },
+        {
+          "head": 3,
+          "T_G": 0.921182,
+          "edge_density": 0.010528,
+          "mean_degree": 2.14
+        },
+        {
+          "head": 4,
+          "T_G": 0.970443,
+          "edge_density": 0.009611,
+          "mean_degree": 1.95
+        },
+        {
+          "head": 5,
+          "T_G": 0.975369,
+          "edge_density": 0.009611,
+          "mean_degree": 1.95
+        },
+        {
+          "head": 6,
+          "T_G": 0.926108,
+          "edge_density": 0.004443,
+          "mean_degree": 0.9
+        },
+        {
+          "head": 7,
+          "T_G": 0.921182,
+          "edge_density": 0.009659,
+          "mean_degree": 1.96
+        },
+        {
+          "head": 8,
+          "T_G": 0.985222,
+          "edge_density": 0.009901,
+          "mean_degree": 2.01
+        },
+        {
+          "head": 9,
+          "T_G": 0.980296,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 10,
+          "T_G": 0.960591,
+          "edge_density": 0.010142,
+          "mean_degree": 2.06
+        },
+        {
+          "head": 11,
+          "T_G": 0.980296,
+          "edge_density": 0.009901,
+          "mean_degree": 2.01
+        },
+        {
+          "head": 12,
+          "T_G": 0.940887,
+          "edge_density": 0.009369,
+          "mean_degree": 1.9
+        },
+        {
+          "head": 13,
+          "T_G": 0.847291,
+          "edge_density": 0.008597,
+          "mean_degree": 1.75
+        }
+      ]
+    },
+    {
+      "layer": 21,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.975369,
+          "edge_density": 0.009997,
+          "mean_degree": 2.03
+        },
+        {
+          "head": 1,
+          "T_G": 0.970443,
+          "edge_density": 0.009031,
+          "mean_degree": 1.83
+        },
+        {
+          "head": 2,
+          "T_G": 0.965517,
+          "edge_density": 0.009514,
+          "mean_degree": 1.93
+        },
+        {
+          "head": 3,
+          "T_G": 0.980296,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 4,
+          "T_G": 0.985222,
+          "edge_density": 0.009949,
+          "mean_degree": 2.02
+        },
+        {
+          "head": 5,
+          "T_G": 0.975369,
+          "edge_density": 0.010142,
+          "mean_degree": 2.06
+        },
+        {
+          "head": 6,
+          "T_G": 0.985222,
+          "edge_density": 0.009997,
+          "mean_degree": 2.03
+        },
+        {
+          "head": 7,
+          "T_G": 0.916256,
+          "edge_density": 0.010625,
+          "mean_degree": 2.16
+        },
+        {
+          "head": 8,
+          "T_G": 0.955665,
+          "edge_density": 0.009804,
+          "mean_degree": 1.99
+        },
+        {
+          "head": 9,
+          "T_G": 0.990148,
+          "edge_density": 0.001062,
+          "mean_degree": 0.22
+        },
+        {
+          "head": 10,
+          "T_G": 0.975369,
+          "edge_density": 0.009901,
+          "mean_degree": 2.01
+        },
+        {
+          "head": 11,
+          "T_G": 0.970443,
+          "edge_density": 0.009418,
+          "mean_degree": 1.91
+        },
+        {
+          "head": 12,
+          "T_G": 0.955665,
+          "edge_density": 0.010142,
+          "mean_degree": 2.06
+        },
+        {
+          "head": 13,
+          "T_G": 0.970443,
+          "edge_density": 0.010094,
+          "mean_degree": 2.05
+        }
+      ]
+    },
+    {
+      "layer": 22,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.935961,
+          "edge_density": 0.001884,
+          "mean_degree": 0.38
+        },
+        {
+          "head": 1,
+          "T_G": 0.950739,
+          "edge_density": 0.00396,
+          "mean_degree": 0.8
+        },
+        {
+          "head": 2,
+          "T_G": 0.955665,
+          "edge_density": 0.003139,
+          "mean_degree": 0.64
+        },
+        {
+          "head": 3,
+          "T_G": 0.945813,
+          "edge_density": 0.004202,
+          "mean_degree": 0.85
+        },
+        {
+          "head": 4,
+          "T_G": 0.965517,
+          "edge_density": 0.001497,
+          "mean_degree": 0.3
+        },
+        {
+          "head": 5,
+          "T_G": 0.965517,
+          "edge_density": 0.003719,
+          "mean_degree": 0.75
+        },
+        {
+          "head": 6,
+          "T_G": 0.960591,
+          "edge_density": 0.00256,
+          "mean_degree": 0.52
+        },
+        {
+          "head": 7,
+          "T_G": 0.965517,
+          "edge_density": 0.003091,
+          "mean_degree": 0.63
+        },
+        {
+          "head": 8,
+          "T_G": 0.965517,
+          "edge_density": 0.003187,
+          "mean_degree": 0.65
+        },
+        {
+          "head": 9,
+          "T_G": 0.955665,
+          "edge_density": 0.003526,
+          "mean_degree": 0.72
+        },
+        {
+          "head": 10,
+          "T_G": 0.950739,
+          "edge_density": 0.003429,
+          "mean_degree": 0.7
+        },
+        {
+          "head": 11,
+          "T_G": 0.935961,
+          "edge_density": 0.004636,
+          "mean_degree": 0.94
+        },
+        {
+          "head": 12,
+          "T_G": 0.955665,
+          "edge_density": 0.005071,
+          "mean_degree": 1.03
+        },
+        {
+          "head": 13,
+          "T_G": 0.955665,
+          "edge_density": 0.003477,
+          "mean_degree": 0.71
+        }
+      ]
+    },
+    {
+      "layer": 23,
+      "heads": [
+        {
+          "head": 0,
+          "T_G": 0.965517,
+          "edge_density": 0.001884,
+          "mean_degree": 0.38
+        },
+        {
+          "head": 1,
+          "T_G": 1.0,
+          "edge_density": 0.0,
+          "mean_degree": 0.0
+        },
+        {
+          "head": 2,
+          "T_G": 0.876847,
+          "edge_density": 0.002705,
+          "mean_degree": 0.55
+        },
+        {
+          "head": 3,
+          "T_G": 0.935961,
+          "edge_density": 0.003767,
+          "mean_degree": 0.76
+        },
+        {
+          "head": 4,
+          "T_G": 0.955665,
+          "edge_density": 0.001062,
+          "mean_degree": 0.22
+        },
+        {
+          "head": 5,
+          "T_G": 0.931034,
+          "edge_density": 0.005892,
+          "mean_degree": 1.2
+        },
+        {
+          "head": 6,
+          "T_G": 0.714286,
+          "edge_density": 0.004926,
+          "mean_degree": 1.0
+        },
+        {
+          "head": 7,
+          "T_G": 0.935961,
+          "edge_density": 0.004105,
+          "mean_degree": 0.83
+        },
+        {
+          "head": 8,
+          "T_G": 0.950739,
+          "edge_density": 0.003864,
+          "mean_degree": 0.78
+        },
+        {
+          "head": 9,
+          "T_G": 0.950739,
+          "edge_density": 0.003187,
+          "mean_degree": 0.65
+        },
+        {
+          "head": 10,
+          "T_G": 0.955665,
+          "edge_density": 0.00454,
+          "mean_degree": 0.92
+        },
+        {
+          "head": 11,
+          "T_G": 0.940887,
+          "edge_density": 0.003236,
+          "mean_degree": 0.66
+        },
+        {
+          "head": 12,
+          "T_G": 0.921182,
+          "edge_density": 0.004057,
+          "mean_degree": 0.82
+        },
+        {
+          "head": 13,
+          "T_G": 0.945813,
+          "edge_density": 0.003574,
+          "mean_degree": 0.73
+        }
+      ]
+    }
+  ],
+  "phase_distribution": {
+    "real_phase_T_le_1_64": 0,
+    "virtual_phase_1_64_lt_T_le_1_8": 3,
+    "no_phase_T_gt_1_8": 333,
+    "total": 336
+  },
+  "spectral_compression_top3": [
+    {
+      "n_cliques": 192,
+      "compression_ratio": 1.06,
+      "comp_density": 0.0,
+      "virtual_edges": 191,
+      "coverage": 1.0,
+      "clique_sizes": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "layer": 0,
+      "head": 11,
+      "T_G": 0.059113,
+      "time_s": 0.0
+    },
+    {
+      "n_cliques": 174,
+      "compression_ratio": 1.17,
+      "comp_density": 0.0234,
+      "virtual_edges": 147,
+      "coverage": 1.0,
+      "clique_sizes": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "layer": 15,
+      "head": 2,
+      "T_G": 0.064039,
+      "time_s": 0.0
+    },
+    {
+      "n_cliques": 174,
+      "compression_ratio": 1.17,
+      "comp_density": 0.0001,
+      "virtual_edges": 172,
+      "coverage": 1.0,
+      "clique_sizes": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "layer": 8,
+      "head": 7,
+      "T_G": 0.108374,
+      "time_s": 0.0
+    }
+  ]
+}

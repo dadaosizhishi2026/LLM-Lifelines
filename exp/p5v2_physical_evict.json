@@ -1,0 +1,69 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_prompt": 175,
+  "gen_tokens": 60,
+  "layer_TG": [
+    5.83,
+    13.29,
+    13.59,
+    96.43,
+    75.8,
+    92.41,
+    72.57,
+    104.37,
+    48.31,
+    112.22,
+    62.59,
+    114.81,
+    52.89,
+    92.93,
+    51.51,
+    60.13,
+    137.93,
+    114.25,
+    88.36,
+    72.86,
+    94.68,
+    111.93,
+    24.82,
+    18.39
+  ],
+  "generations": {
+    "full": "",
+    "uniform": " The Hamiltonian path problem on dense random graphs can be solved in a compressed form. The Hamiltonian path problem on dense random graphs can be used to solve the Hamiltonian path problem. This is a new approach to solving the Hamiltonian path problem on dense random graphs.",
+    "tg_weighted": " The Hamiltonian path problem on dense random graphs are not only applicable to the problem of the Hamiltonian path problem on dense random graphs can be used to solve the Hamiltonian path problem.",
+    "h2o": " The Hamiltonian path problem on dense random graphs can be solved in a compressed form. The Hamiltonian path problem on dense random graphs can be used to solve the Hamiltonian path problem. This is a new approach to solving the Hamiltonian path problem on dense random graphs."
+  },
+  "n_generated": {
+    "full": 1,
+    "uniform": 55,
+    "tg_weighted": 38,
+    "h2o": 55
+  },
+  "evaluation": {
+    "full": {
+      "repetition_ratio": 1.0,
+      "coherence": 0,
+      "length_chars": 0,
+      "length_words": 0
+    },
+    "uniform": {
+      "repetition_ratio": 0.0851,
+      "coherence": 1.0,
+      "length_chars": 278,
+      "length_words": 47
+    },
+    "tg_weighted": {
+      "repetition_ratio": 0.0909,
+      "coherence": 1.0,
+      "length_chars": 197,
+      "length_words": 33
+    },
+    "h2o": {
+      "repetition_ratio": 0.0851,
+      "coherence": 1.0,
+      "length_chars": 278,
+      "length_words": 47
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "prompt": "The algebraic tension of a graph is defined as",
+  "n_prompt_tokens": 10,
+  "full_generation": "The algebraic tension of a graph is defined as the difference between the number of edges and the number of vertices in the graph. Consider a graph with 10 vertices and 15 edges.",
+  "experiments": [
+    {
+      "target_ratio": 0.75,
+      "actual_ratio": 0.5,
+      "n_merged_tokens": 5,
+      "mean_clique_size": 6.0,
+      "generation": "The algebraic tension of a graph is defined as  the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the",
+      "token_overlap_with_full": 0.1111
+    },
+    {
+      "target_ratio": 0.5,
+      "actual_ratio": 0.5,
+      "n_merged_tokens": 5,
+      "mean_clique_size": 6.0,
+      "generation": "The algebraic tension of a graph is defined as  the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the",
+      "token_overlap_with_full": 0.1111
+    }
+  ],
+  "adaptive_per_layer": {
+    "layer_compressed_sizes": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ],
+    "mean_compression": 0.5,
+    "generation": "The algebraic tension of a graph is defined as  the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the algebra of the"
+  }
+}

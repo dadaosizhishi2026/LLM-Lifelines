@@ -1,0 +1,655 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 204,
+  "orig_perplexity": 18.06732749938965,
+  "k_sweep": {
+    "8": {
+      "k": 8,
+      "layers": [
+        {
+          "layer": 0,
+          "mean_T_G": 0.2709,
+          "min_T_G": 0.0837,
+          "mean_compression": 1.62
+        },
+        {
+          "layer": 1,
+          "mean_T_G": 0.2445,
+          "min_T_G": 0.0837,
+          "mean_compression": 1.7
+        },
+        {
+          "layer": 2,
+          "mean_T_G": 0.2287,
+          "min_T_G": 0.1034,
+          "mean_compression": 1.72
+        },
+        {
+          "layer": 3,
+          "mean_T_G": 0.2182,
+          "min_T_G": 0.0936,
+          "mean_compression": 1.72
+        },
+        {
+          "layer": 4,
+          "mean_T_G": 0.2548,
+          "min_T_G": 0.133,
+          "mean_compression": 1.78
+        },
+        {
+          "layer": 5,
+          "mean_T_G": 0.2386,
+          "min_T_G": 0.1281,
+          "mean_compression": 1.6
+        },
+        {
+          "layer": 6,
+          "mean_T_G": 0.2255,
+          "min_T_G": 0.1182,
+          "mean_compression": 1.73
+        },
+        {
+          "layer": 7,
+          "mean_T_G": 0.1668,
+          "min_T_G": 0.1379,
+          "mean_compression": 1.89
+        },
+        {
+          "layer": 8,
+          "mean_T_G": 0.1868,
+          "min_T_G": 0.1034,
+          "mean_compression": 1.93
+        },
+        {
+          "layer": 9,
+          "mean_T_G": 0.1939,
+          "min_T_G": 0.1379,
+          "mean_compression": 1.56
+        },
+        {
+          "layer": 10,
+          "mean_T_G": 0.2565,
+          "min_T_G": 0.1182,
+          "mean_compression": 1.69
+        },
+        {
+          "layer": 11,
+          "mean_T_G": 0.2625,
+          "min_T_G": 0.1626,
+          "mean_compression": 1.41
+        },
+        {
+          "layer": 12,
+          "mean_T_G": 0.2702,
+          "min_T_G": 0.1232,
+          "mean_compression": 1.74
+        },
+        {
+          "layer": 13,
+          "mean_T_G": 0.2523,
+          "min_T_G": 0.1527,
+          "mean_compression": 1.61
+        },
+        {
+          "layer": 14,
+          "mean_T_G": 0.2632,
+          "min_T_G": 0.133,
+          "mean_compression": 1.7
+        },
+        {
+          "layer": 15,
+          "mean_T_G": 0.2452,
+          "min_T_G": 0.1084,
+          "mean_compression": 1.67
+        },
+        {
+          "layer": 16,
+          "mean_T_G": 0.2189,
+          "min_T_G": 0.1281,
+          "mean_compression": 1.36
+        },
+        {
+          "layer": 17,
+          "mean_T_G": 0.3251,
+          "min_T_G": 0.1478,
+          "mean_compression": 1.59
+        },
+        {
+          "layer": 18,
+          "mean_T_G": 0.2111,
+          "min_T_G": 0.1478,
+          "mean_compression": 1.76
+        },
+        {
+          "layer": 19,
+          "mean_T_G": 0.177,
+          "min_T_G": 0.1281,
+          "mean_compression": 1.89
+        },
+        {
+          "layer": 20,
+          "mean_T_G": 0.3431,
+          "min_T_G": 0.1921,
+          "mean_compression": 1.45
+        },
+        {
+          "layer": 21,
+          "mean_T_G": 0.4068,
+          "min_T_G": 0.1773,
+          "mean_compression": 1.34
+        },
+        {
+          "layer": 22,
+          "mean_T_G": 0.4835,
+          "min_T_G": 0.3202,
+          "mean_compression": 1.33
+        },
+        {
+          "layer": 23,
+          "mean_T_G": 0.4335,
+          "min_T_G": 0.1182,
+          "mean_compression": 1.36
+        }
+      ],
+      "summary": {
+        "mean_T_G": 0.2657,
+        "min_T_G": 0.0837,
+        "mean_density": 0.058,
+        "phase_distribution": {
+          "real_T_le_1_64": 0,
+          "virtual_1_64_lt_T_le_1_8": 21,
+          "no_T_gt_1_8": 315
+        },
+        "mean_clique_coverage": 2.7852,
+        "mean_compression": 1.63,
+        "max_compression": 3.09
+      }
+    },
+    "16": {
+      "k": 16,
+      "layers": [
+        {
+          "layer": 0,
+          "mean_T_G": 0.1897,
+          "min_T_G": 0.0443,
+          "mean_compression": 1.83
+        },
+        {
+          "layer": 1,
+          "mean_T_G": 0.1619,
+          "min_T_G": 0.0148,
+          "mean_compression": 1.98
+        },
+        {
+          "layer": 2,
+          "mean_T_G": 0.1284,
+          "min_T_G": 0.0493,
+          "mean_compression": 2.04
+        },
+        {
+          "layer": 3,
+          "mean_T_G": 0.1112,
+          "min_T_G": 0.0443,
+          "mean_compression": 1.94
+        },
+        {
+          "layer": 4,
+          "mean_T_G": 0.1362,
+          "min_T_G": 0.0591,
+          "mean_compression": 1.99
+        },
+        {
+          "layer": 5,
+          "mean_T_G": 0.1362,
+          "min_T_G": 0.064,
+          "mean_compression": 1.85
+        },
+        {
+          "layer": 6,
+          "mean_T_G": 0.114,
+          "min_T_G": 0.0443,
+          "mean_compression": 2.12
+        },
+        {
+          "layer": 7,
+          "mean_T_G": 0.0799,
+          "min_T_G": 0.064,
+          "mean_compression": 2.14
+        },
+        {
+          "layer": 8,
+          "mean_T_G": 0.0947,
+          "min_T_G": 0.064,
+          "mean_compression": 2.29
+        },
+        {
+          "layer": 9,
+          "mean_T_G": 0.095,
+          "min_T_G": 0.064,
+          "mean_compression": 1.68
+        },
+        {
+          "layer": 10,
+          "mean_T_G": 0.1358,
+          "min_T_G": 0.0443,
+          "mean_compression": 1.95
+        },
+        {
+          "layer": 11,
+          "mean_T_G": 0.1376,
+          "min_T_G": 0.0985,
+          "mean_compression": 1.62
+        },
+        {
+          "layer": 12,
+          "mean_T_G": 0.1517,
+          "min_T_G": 0.0493,
+          "mean_compression": 2.06
+        },
+        {
+          "layer": 13,
+          "mean_T_G": 0.1337,
+          "min_T_G": 0.0542,
+          "mean_compression": 1.9
+        },
+        {
+          "layer": 14,
+          "mean_T_G": 0.1453,
+          "min_T_G": 0.064,
+          "mean_compression": 1.96
+        },
+        {
+          "layer": 15,
+          "mean_T_G": 0.1256,
+          "min_T_G": 0.0591,
+          "mean_compression": 1.94
+        },
+        {
+          "layer": 16,
+          "mean_T_G": 0.1224,
+          "min_T_G": 0.0837,
+          "mean_compression": 1.54
+        },
+        {
+          "layer": 17,
+          "mean_T_G": 0.1872,
+          "min_T_G": 0.064,
+          "mean_compression": 1.77
+        },
+        {
+          "layer": 18,
+          "mean_T_G": 0.1087,
+          "min_T_G": 0.064,
+          "mean_compression": 1.9
+        },
+        {
+          "layer": 19,
+          "mean_T_G": 0.0897,
+          "min_T_G": 0.0493,
+          "mean_compression": 2.06
+        },
+        {
+          "layer": 20,
+          "mean_T_G": 0.2044,
+          "min_T_G": 0.0936,
+          "mean_compression": 1.62
+        },
+        {
+          "layer": 21,
+          "mean_T_G": 0.253,
+          "min_T_G": 0.064,
+          "mean_compression": 1.51
+        },
+        {
+          "layer": 22,
+          "mean_T_G": 0.3308,
+          "min_T_G": 0.1872,
+          "mean_compression": 1.51
+        },
+        {
+          "layer": 23,
+          "mean_T_G": 0.2882,
+          "min_T_G": 0.0936,
+          "mean_compression": 1.51
+        }
+      ],
+      "summary": {
+        "mean_T_G": 0.1525,
+        "min_T_G": 0.0148,
+        "mean_density": 0.109,
+        "phase_distribution": {
+          "real_T_le_1_64": 1,
+          "virtual_1_64_lt_T_le_1_8": 185,
+          "no_T_gt_1_8": 150
+        },
+        "mean_clique_coverage": 3.4961,
+        "mean_compression": 1.86,
+        "max_compression": 4.25
+      }
+    },
+    "32": {
+      "k": 32,
+      "layers": [
+        {
+          "layer": 0,
+          "mean_T_G": 0.1042,
+          "min_T_G": 0.0197,
+          "mean_compression": 1.82
+        },
+        {
+          "layer": 1,
+          "mean_T_G": 0.0778,
+          "min_T_G": 0.0148,
+          "mean_compression": 1.9
+        },
+        {
+          "layer": 2,
+          "mean_T_G": 0.0577,
+          "min_T_G": 0.0148,
+          "mean_compression": 1.81
+        },
+        {
+          "layer": 3,
+          "mean_T_G": 0.0496,
+          "min_T_G": 0.0148,
+          "mean_compression": 1.84
+        },
+        {
+          "layer": 4,
+          "mean_T_G": 0.0598,
+          "min_T_G": 0.0197,
+          "mean_compression": 1.87
+        },
+        {
+          "layer": 5,
+          "mean_T_G": 0.0581,
+          "min_T_G": 0.0296,
+          "mean_compression": 1.9
+        },
+        {
+          "layer": 6,
+          "mean_T_G": 0.0454,
+          "min_T_G": 0.0099,
+          "mean_compression": 1.99
+        },
+        {
+          "layer": 7,
+          "mean_T_G": 0.0387,
+          "min_T_G": 0.0246,
+          "mean_compression": 2.02
+        },
+        {
+          "layer": 8,
+          "mean_T_G": 0.0391,
+          "min_T_G": 0.0197,
+          "mean_compression": 2.02
+        },
+        {
+          "layer": 9,
+          "mean_T_G": 0.0489,
+          "min_T_G": 0.0246,
+          "mean_compression": 1.67
+        },
+        {
+          "layer": 10,
+          "mean_T_G": 0.0662,
+          "min_T_G": 0.0197,
+          "mean_compression": 1.99
+        },
+        {
+          "layer": 11,
+          "mean_T_G": 0.0644,
+          "min_T_G": 0.0296,
+          "mean_compression": 1.71
+        },
+        {
+          "layer": 12,
+          "mean_T_G": 0.0714,
+          "min_T_G": 0.0197,
+          "mean_compression": 1.8
+        },
+        {
+          "layer": 13,
+          "mean_T_G": 0.0517,
+          "min_T_G": 0.0246,
+          "mean_compression": 1.8
+        },
+        {
+          "layer": 14,
+          "mean_T_G": 0.0644,
+          "min_T_G": 0.0246,
+          "mean_compression": 1.96
+        },
+        {
+          "layer": 15,
+          "mean_T_G": 0.0524,
+          "min_T_G": 0.0197,
+          "mean_compression": 1.94
+        },
+        {
+          "layer": 16,
+          "mean_T_G": 0.0584,
+          "min_T_G": 0.0246,
+          "mean_compression": 1.73
+        },
+        {
+          "layer": 17,
+          "mean_T_G": 0.089,
+          "min_T_G": 0.0345,
+          "mean_compression": 1.82
+        },
+        {
+          "layer": 18,
+          "mean_T_G": 0.0475,
+          "min_T_G": 0.0246,
+          "mean_compression": 1.94
+        },
+        {
+          "layer": 19,
+          "mean_T_G": 0.0398,
+          "min_T_G": 0.0148,
+          "mean_compression": 1.83
+        },
+        {
+          "layer": 20,
+          "mean_T_G": 0.1063,
+          "min_T_G": 0.0493,
+          "mean_compression": 1.76
+        },
+        {
+          "layer": 21,
+          "mean_T_G": 0.1411,
+          "min_T_G": 0.0296,
+          "mean_compression": 1.64
+        },
+        {
+          "layer": 22,
+          "mean_T_G": 0.2006,
+          "min_T_G": 0.1182,
+          "mean_compression": 1.67
+        },
+        {
+          "layer": 23,
+          "mean_T_G": 0.1619,
+          "min_T_G": 0.0345,
+          "mean_compression": 1.67
+        }
+      ],
+      "summary": {
+        "mean_T_G": 0.0748,
+        "min_T_G": 0.0099,
+        "mean_density": 0.2073,
+        "phase_distribution": {
+          "real_T_le_1_64": 5,
+          "virtual_1_64_lt_T_le_1_8": 275,
+          "no_T_gt_1_8": 56
+        },
+        "mean_clique_coverage": 5.0147,
+        "mean_compression": 1.84,
+        "max_compression": 2.96
+      }
+    },
+    "64": {
+      "k": 64,
+      "layers": [
+        {
+          "layer": 0,
+          "mean_T_G": 0.0419,
+          "min_T_G": 0.0,
+          "mean_compression": 1.66
+        },
+        {
+          "layer": 1,
+          "mean_T_G": 0.026,
+          "min_T_G": 0.0099,
+          "mean_compression": 1.36
+        },
+        {
+          "layer": 2,
+          "mean_T_G": 0.0194,
+          "min_T_G": 0.0099,
+          "mean_compression": 1.25
+        },
+        {
+          "layer": 3,
+          "mean_T_G": 0.0201,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.23
+        },
+        {
+          "layer": 4,
+          "mean_T_G": 0.019,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.39
+        },
+        {
+          "layer": 5,
+          "mean_T_G": 0.0239,
+          "min_T_G": 0.0099,
+          "mean_compression": 1.42
+        },
+        {
+          "layer": 6,
+          "mean_T_G": 0.0148,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.53
+        },
+        {
+          "layer": 7,
+          "mean_T_G": 0.0141,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.52
+        },
+        {
+          "layer": 8,
+          "mean_T_G": 0.0134,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.42
+        },
+        {
+          "layer": 9,
+          "mean_T_G": 0.0208,
+          "min_T_G": 0.0099,
+          "mean_compression": 1.48
+        },
+        {
+          "layer": 10,
+          "mean_T_G": 0.0208,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.41
+        },
+        {
+          "layer": 11,
+          "mean_T_G": 0.0253,
+          "min_T_G": 0.0148,
+          "mean_compression": 1.6
+        },
+        {
+          "layer": 12,
+          "mean_T_G": 0.0243,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.27
+        },
+        {
+          "layer": 13,
+          "mean_T_G": 0.0194,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.41
+        },
+        {
+          "layer": 14,
+          "mean_T_G": 0.0236,
+          "min_T_G": 0.0099,
+          "mean_compression": 1.44
+        },
+        {
+          "layer": 15,
+          "mean_T_G": 0.0144,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.52
+        },
+        {
+          "layer": 16,
+          "mean_T_G": 0.0225,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.69
+        },
+        {
+          "layer": 17,
+          "mean_T_G": 0.0324,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.44
+        },
+        {
+          "layer": 18,
+          "mean_T_G": 0.0211,
+          "min_T_G": 0.0099,
+          "mean_compression": 1.39
+        },
+        {
+          "layer": 19,
+          "mean_T_G": 0.0169,
+          "min_T_G": 0.0049,
+          "mean_compression": 1.37
+        },
+        {
+          "layer": 20,
+          "mean_T_G": 0.044,
+          "min_T_G": 0.0148,
+          "mean_compression": 1.37
+        },
+        {
+          "layer": 21,
+          "mean_T_G": 0.0581,
+          "min_T_G": 0.0099,
+          "mean_compression": 1.33
+        },
+        {
+          "layer": 22,
+          "mean_T_G": 0.0848,
+          "min_T_G": 0.0246,
+          "mean_compression": 1.2
+        },
+        {
+          "layer": 23,
+          "mean_T_G": 0.0588,
+          "min_T_G": 0.0148,
+          "mean_compression": 1.24
+        }
+      ],
+      "summary": {
+        "mean_T_G": 0.0283,
+        "min_T_G": 0.0,
+        "mean_density": 0.3951,
+        "phase_distribution": {
+          "real_T_le_1_64": 139,
+          "virtual_1_64_lt_T_le_1_8": 193,
+          "no_T_gt_1_8": 4
+        },
+        "mean_clique_coverage": 8.5014,
+        "mean_compression": 1.41,
+        "max_compression": 2.34
+      }
+    }
+  }
+}

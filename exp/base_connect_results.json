@@ -1,0 +1,36 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 204,
+  "orig_perplexity": 18.06732749938965,
+  "k": 64,
+  "clique_mass_analysis": {
+    "mean_intra_mass_ratio": 5.7813,
+    "median_intra_mass_ratio": 5.8488,
+    "min_intra_mass_ratio": 0.7639,
+    "max_intra_mass_ratio": 11.1032,
+    "heads_gt_85pct": 335,
+    "heads_gt_70pct": 336,
+    "heads_lt_50pct": 0,
+    "total_heads": 336
+  },
+  "compression_kl": {
+    "intra_only": {
+      "mean_kl": 6.7791,
+      "median_kl": 7.1089,
+      "kl_lt_0.1_pct": 2.1,
+      "kl_lt_0.5_pct": 4.8,
+      "kl_gt_1.0_pct": 93.8
+    },
+    "intra_plus_bridge": {
+      "mean_kl": 0.071,
+      "median_kl": -0.0,
+      "kl_lt_0.1_pct": 93.8,
+      "kl_lt_0.5_pct": 97.3,
+      "kl_gt_1.0_pct": 1.2
+    }
+  },
+  "per_head_mass": [
+    {
+      "layer": 0,
+      "head": 0,
+      "intra_mass_ratio": 

@@ -1,0 +1,128 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 216,
+  "n_layers": 24,
+  "ppl_full": 19.05,
+  "ratio_avg": 0.75,
+  "beta": 0.5,
+  "layer_TG": [
+    5.9,
+    13.78,
+    14.37,
+    117.49,
+    90.5,
+    112.29,
+    87.96,
+    128.21,
+    58.08,
+    135.06,
+    72.91,
+    138.5,
+    61.47,
+    109.3,
+    60.79,
+    70.24,
+    166.08,
+    137.43,
+    105.46,
+    86.74,
+    115.0,
+    134.94,
+    26.79,
+    20.32
+  ],
+  "experiments": [
+    {
+      "mode": "均匀",
+      "ppl": 23.25,
+      "ppl_ratio": 1.2208,
+      "ppl_change_pct": 22.1,
+      "budget_range": [
+        0.75,
+        0.75
+      ]
+    },
+    {
+      "mode": "T(G)引导",
+      "ppl": 21.42,
+      "ppl_ratio": 1.1247,
+      "ppl_change_pct": 12.5,
+      "budget_range": [
+        0.597,
+        0.898
+      ]
+    },
+    {
+      "mode": "反向",
+      "ppl": 24.24,
+      "ppl_ratio": 1.2725,
+      "ppl_change_pct": 27.2,
+      "budget_range": [
+        0.597,
+        0.898
+      ]
+    }
+  ],
+  "multi_budget": [
+    {
+      "ratio_avg": 0.9,
+      "mode": "均匀",
+      "ppl": 20.53,
+      "ppl_ratio": 1.0778
+    },
+    {
+      "ratio_avg": 0.9,
+      "mode": "T(G)引导",
+      "ppl": 19.45,
+      "ppl_ratio": 1.0213
+    },
+    {
+      "ratio_avg": 0.8,
+      "mode": "均匀",
+      "ppl": 21.66,
+      "ppl_ratio": 1.1369
+    },
+    {
+      "ratio_avg": 0.8,
+      "mode": "T(G)引导",
+      "ppl": 20.6,
+      "ppl_ratio": 1.0815
+    },
+    {
+      "ratio_avg": 0.7,
+      "mode": "均匀",
+      "ppl": 23.89,
+      "ppl_ratio": 1.254
+    },
+    {
+      "ratio_avg": 0.7,
+      "mode": "T(G)引导",
+      "ppl": 22.1,
+      "ppl_ratio": 1.1601
+    },
+    {
+      "ratio_avg": 0.6,
+      "mode": "均匀",
+      "ppl": 28.13,
+      "ppl_ratio": 1.4766
+    },
+    {
+      "ratio_avg": 0.6,
+      "mode": "T(G)引导",
+      "ppl": 27.24,
+      "ppl_ratio": 1.4299
+    },
+    {
+      "ratio_avg": 0.5,
+      "mode": "均匀",
+      "ppl": 41.2,
+      "ppl_ratio": 2.1627
+    },
+    {
+      "ratio_avg": 0.5,
+      "mode": "T(G)引导",
+      "ppl": 39.99,
+      "ppl_ratio": 2.0992
+    }
+  ]
+}

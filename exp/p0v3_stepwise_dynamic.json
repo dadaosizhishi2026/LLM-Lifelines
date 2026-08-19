@@ -1,0 +1,46 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 216,
+  "n_layers": 24,
+  "alpha": 0.125,
+  "eta": 0.875,
+  "ppl_full": 19.05,
+  "experiments": [
+    {
+      "scheme": "A_全层衰减_k=层序号",
+      "ppl_decay": 19.05,
+      "ppl_ratio": 1.0,
+      "ppl_increase_pct": 0.0,
+      "mean_kl": 0.0,
+      "max_kl": 0.0,
+      "theory_final_retention": 0.046364
+    },
+    {
+      "scheme": "B_后半层衰减_前12层不动",
+      "ppl_decay": 19.05,
+      "ppl_ratio": 1.0,
+      "ppl_increase_pct": 0.0,
+      "mean_kl": 0.0,
+      "max_kl": 0.0,
+      "theory_final_retention": null
+    },
+    {
+      "scheme": "C_隔层衰减_偶数层",
+      "ppl_decay": 19.05,
+      "ppl_ratio": 1.0,
+      "ppl_increase_pct": 0.0,
+      "mean_kl": 0.0,
+      "max_kl": 0.0,
+      "theory_final_retention": null
+    },
+    {
+      "scheme": "D_均匀衰减_全部×7/8",
+      "ppl_decay": 19.05,
+      "ppl_ratio": 1.0,
+      "ppl_increase_pct": 0.0,
+      "mean_kl": 0.0,
+      "max_kl": 0.0,
+      "theory_final_retention": null
+    }
+  ]
+}

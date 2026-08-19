@@ -1,0 +1,50 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 216,
+  "n_layers": 24,
+  "eta": 0.875,
+  "ppl_full": 19.05,
+  "experiments": [
+    {
+      "scheme": "A_(7/8)^k",
+      "ppl": 397481600.0,
+      "ratio": 20865884.9143,
+      "final_retention": 0.046364,
+      "alpha": "1/8"
+    },
+    {
+      "scheme": "B_per_layer_7/8",
+      "ppl": 10762.09,
+      "ratio": 564.9582,
+      "final_retention": 0.046364,
+      "alpha": "1/8"
+    },
+    {
+      "scheme": "C_back_half_(7/8)^k",
+      "ppl": 7646219.5,
+      "ratio": 401389.9917,
+      "final_retention": 0.230191,
+      "alpha": "1/8"
+    },
+    {
+      "scheme": "D_(15/16)^k",
+      "ppl": 187922464768.0,
+      "ratio": 9865031545.2427,
+      "final_retention": 0.226641,
+      "alpha": "1/16"
+    },
+    {
+      "scheme": "E_(31/32)^k",
+      "ppl": 17927718.0,
+      "ratio": 941119.54,
+      "final_retention": 0.481803,
+      "alpha": "1/32"
+    }
+  ],
+  "linearity_test": {
+    "ratio_AD": 0.0021,
+    "ratio_DE": 10482.2412,
+    "theory_ratio": 2.0,
+    "verdict": "nonlinear"
+  }
+}

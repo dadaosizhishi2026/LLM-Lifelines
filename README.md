@@ -14,6 +14,12 @@
 - KV缓存按结构集中度分配：75%保留比最优，降7.9%；反向分配反而升27.2%
 - 完整数学公式（7.1–7.5）+ 可移植Python实现（8.1–8.5）
 
+## 实验代码 · Code
+
+本仓库 `exp/` 目录包含论文**全部实验的完整代码、语料与原始结果数据**（66个文件）——下载开源模型（ModelScope/HuggingFace 搜 Qwen2.5-0.5B-Instruct）→ 改 `MODEL_PATH` → 直接跑，即可完整复现论文每一张表格。
+
+详见 [`exp/REPRODUCE.md`](exp/REPRODUCE.md)。
+
 ## Files · 文件
 
 | Language | File |

@@ -1,0 +1,53 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_prompt": 175,
+  "gen_tokens": 60,
+  "layer_TG": [
+    5.83,
+    13.29,
+    13.59,
+    96.43,
+    75.8,
+    92.41,
+    72.57,
+    104.37,
+    48.31,
+    112.22,
+    62.59,
+    114.81,
+    52.89,
+    92.93,
+    51.51,
+    60.13,
+    137.93,
+    114.25,
+    88.36,
+    72.86,
+    94.68,
+    111.93,
+    24.82,
+    18.39
+  ],
+  "generations": {
+    "full": " This paper describes the implications for artificial intelligence. The attention mechanism in Transformers can be viewed as a dense graph where each token attends to every previous token. This paper describes the implications for artificial intelligence. The attention mechanism in Transformers can be viewed as a dense graph where each token attends to every previous token.",
+    "uniform": "no. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .",
+    "tg": "..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n..\n\n\n."
+  },
+  "evaluation": {
+    "token_overlap_uniform": 0.0323,
+    "token_overlap_tg": 0.0333,
+    "char_overlap_uniform": 0.16,
+    "char_overlap_tg": 0.0385,
+    "tg_wins": "T(G)"
+  },
+  "generation_length": {
+    "full": 376,
+    "uniform": 117,
+    "tg": 146
+  },
+  "repetition_ratio": {
+    "full": 0.05319148936170213,
+    "uniform": 0.811965811965812,
+    "tg": 0.9931506849315068
+  }
+}

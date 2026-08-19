@@ -1,0 +1,170 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "experiments": [
+    {
+      "n_tokens": 64,
+      "orig_ppl": 14.32,
+      "compressions": [
+        {
+          "target_ratio": 0.75,
+          "actual_ratio": 0.75,
+          "n_merged_tokens": 48,
+          "n_cliques": 48,
+          "clique_size_mean": 7.96,
+          "clique_size_max": 8,
+          "kv_energy_fidelity": 0.3752
+        },
+        {
+          "target_ratio": 0.5,
+          "actual_ratio": 0.5,
+          "n_merged_tokens": 32,
+          "n_cliques": 32,
+          "clique_size_mean": 11.94,
+          "clique_size_max": 24,
+          "kv_energy_fidelity": 0.252
+        },
+        {
+          "target_ratio": 0.25,
+          "actual_ratio": 0.25,
+          "n_merged_tokens": 16,
+          "n_cliques": 16,
+          "clique_size_mean": 23.88,
+          "clique_size_max": 40,
+          "kv_energy_fidelity": 0.1188
+        }
+      ]
+    },
+    {
+      "n_tokens": 51,
+      "orig_ppl": 14.4,
+      "compressions": [
+        {
+          "target_ratio": 0.75,
+          "actual_ratio": 0.7451,
+          "n_merged_tokens": 38,
+          "n_cliques": 38,
+          "clique_size_mean": 9.26,
+          "clique_size_max": 16,
+          "kv_energy_fidelity": 0.5209
+        },
+        {
+          "target_ratio": 0.5,
+          "actual_ratio": 0.4902,
+          "n_merged_tokens": 25,
+          "n_cliques": 25,
+          "clique_size_mean": 14.08,
+          "clique_size_max": 32,
+          "kv_energy_fidelity": 0.3411
+        },
+        {
+          "target_ratio": 0.25,
+          "actual_ratio": 0.2353,
+          "n_merged_tokens": 12,
+          "n_cliques": 12,
+          "clique_size_mean": 29.33,
+          "clique_size_max": 56,
+          "kv_energy_fidelity": 0.1636
+        }
+      ]
+    },
+    {
+      "n_tokens": 51,
+      "orig_ppl": 48.71,
+      "compressions": [
+        {
+          "target_ratio": 0.75,
+          "actual_ratio": 0.7451,
+          "n_merged_tokens": 38,
+          "n_cliques": 38,
+          "clique_size_mean": 9.26,
+          "clique_size_max": 32,
+          "kv_energy_fidelity": 0.5158
+        },
+        {
+          "target_ratio": 0.5,
+          "actual_ratio": 0.4902,
+          "n_merged_tokens": 25,
+          "n_cliques": 25,
+          "clique_size_mean": 14.08,
+          "clique_size_max": 32,
+          "kv_energy_fidelity": 0.338
+        },
+        {
+          "target_ratio": 0.25,
+          "actual_ratio": 0.2353,
+          "n_merged_tokens": 12,
+          "n_cliques": 12,
+          "clique_size_mean": 29.33,
+          "clique_size_max": 64,
+          "kv_energy_fidelity": 0.162
+        }
+      ]
+    },
+    {
+      "n_tokens": 49,
+      "orig_ppl": 37.02,
+      "compressions": [
+        {
+          "target_ratio": 0.75,
+          "actual_ratio": 0.7347,
+          "n_merged_tokens": 36,
+          "n_cliques": 36,
+          "clique_size_mean": 9.33,
+          "clique_size_max": 24,
+          "kv_energy_fidelity": 0.4943
+        },
+        {
+          "target_ratio": 0.5,
+          "actual_ratio": 0.4898,
+          "n_merged_tokens": 24,
+          "n_cliques": 24,
+          "clique_size_mean": 14.0,
+          "clique_size_max": 24,
+          "kv_energy_fidelity": 0.3279
+        },
+        {
+          "target_ratio": 0.25,
+          "actual_ratio": 0.2449,
+          "n_merged_tokens": 12,
+          "n_cliques": 12,
+          "clique_size_mean": 28.0,
+          "clique_size_max": 48,
+          "kv_energy_fidelity": 0.1645
+        }
+      ]
+    },
+    {
+      "n_tokens": 53,
+      "orig_ppl": 33.93,
+      "compressions": [
+        {
+          "target_ratio": 0.75,
+          "actual_ratio": 0.7358,
+          "n_merged_tokens": 39,
+          "n_cliques": 39,
+          "clique_size_mean": 9.44,
+          "clique_size_max": 24,
+          "kv_energy_fidelity": 0.3406
+        },
+        {
+          "target_ratio": 0.5,
+          "actual_ratio": 0.4906,
+          "n_merged_tokens": 26,
+          "n_cliques": 26,
+          "clique_size_mean": 14.15,
+          "clique_size_max": 32,
+          "kv_energy_fidelity": 0.2261
+        },
+        {
+          "target_ratio": 0.25,
+          "actual_ratio": 0.2453,
+          "n_merged_tokens": 13,
+          "n_cliques": 13,
+          "clique_size_mean": 28.31,
+          "clique_size_max": 40,
+          "kv_energy_fidelity": 0.1113
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "model": "DeepSeek-R1-Distill-Qwen-7B Q4_K_M (llama.cpp Vulkan)",
+  "corpus": "corpus_long.txt (3205 tokens, 6主题x3)",
+  "date": "2026-08-02 11:14",
+  "engine": "llama-perplexity.exe, -ngl 99 (全GPU), -t 4",
+  "note": "KV压缩曲线：不同上下文窗口c = 朴素截断（丢旧token），非框架选择性压缩",
+  "runs": [
+    {"c": 1536, "kv_retention": 1.0,   "ppl": 2.0531, "ppl_ratio": 1.0,   "note": "基线"},
+    {"c": 1024, "kv_retention": 0.667, "ppl": 5.2501, "ppl_ratio": 2.557, "note": "主跳变 +156%"},
+    {"c": 768,  "kv_retention": 0.5,   "ppl": 5.4497, "ppl_ratio": 2.654, "note": "+166%"},
+    {"c": 512,  "kv_retention": 0.333, "ppl": 5.7640, "ppl_ratio": 2.808, "note": "+181%"},
+    {"c": 384,  "kv_retention": 0.25,  "ppl": 6.0085, "ppl_ratio": 2.928, "note": "+193%"},
+    {"c": 256,  "kv_retention": 0.167, "ppl": 5.7472, "ppl_ratio": 2.799, "note": "+180%（平台期噪声）"}
+  ],
+  "conclusion": {
+    "main_jump": "主跳变在67%保留处（1536→1024, PPL +156%），之后25%-17%是平台期（+180%~193%波动）",
+    "pattern": "先跳变后平台——与0.5B相变行为定性一致",
+    "honest_note": "①语料重复（6主题x3），PPL绝对值偏低但相对趋势有效 ②llama.cpp窗口截断是朴素丢旧token，非框架T(G)选择性压缩——这正是框架价值所在：0.5B验证T(G)引导75%保留只+12.5%，朴素截断67%保留就+156%"
+  }
+}

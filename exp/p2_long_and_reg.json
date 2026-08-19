@@ -1,0 +1,154 @@
+{
+  "experiment1_long_sequence": {
+    "n_tokens": 1673,
+    "ppl_full": 1.72,
+    "phase_distribution": {
+      "real": 317,
+      "virtual": 18,
+      "unsolvable": 1
+    },
+    "phase_pct": {
+      "real": 94.3,
+      "virtual": 5.4,
+      "unsolvable": 0.3
+    },
+    "phase_transition_sweep": [
+      {
+        "keep_ratio": 0.95,
+        "n_keep": 1589,
+        "ppl": 1.8,
+        "ppl_ratio": 1.0429
+      },
+      {
+        "keep_ratio": 0.9,
+        "n_keep": 1505,
+        "ppl": 1.92,
+        "ppl_ratio": 1.1175
+      },
+      {
+        "keep_ratio": 0.85,
+        "n_keep": 1422,
+        "ppl": 2.18,
+        "ppl_ratio": 1.2632
+      },
+      {
+        "keep_ratio": 0.8,
+        "n_keep": 1338,
+        "ppl": 2.38,
+        "ppl_ratio": 1.3797
+      },
+      {
+        "keep_ratio": 0.75,
+        "n_keep": 1254,
+        "ppl": 2.62,
+        "ppl_ratio": 1.5243
+      },
+      {
+        "keep_ratio": 0.7,
+        "n_keep": 1171,
+        "ppl": 2.97,
+        "ppl_ratio": 1.7249
+      },
+      {
+        "keep_ratio": 0.65,
+        "n_keep": 1087,
+        "ppl": 3.47,
+        "ppl_ratio": 2.0169
+      },
+      {
+        "keep_ratio": 0.6,
+        "n_keep": 1003,
+        "ppl": 4.03,
+        "ppl_ratio": 2.3404
+      },
+      {
+        "keep_ratio": 0.5,
+        "n_keep": 836,
+        "ppl": 5.32,
+        "ppl_ratio": 3.0882
+      },
+      {
+        "keep_ratio": 0.4,
+        "n_keep": 669,
+        "ppl": 9.17,
+        "ppl_ratio": 5.3282
+      },
+      {
+        "keep_ratio": 0.3,
+        "n_keep": 501,
+        "ppl": 18.71,
+        "ppl_ratio": 10.8645
+      }
+    ]
+  },
+  "experiment2_regularization": {
+    "n_tokens": 216,
+    "ppl_full": 19.05,
+    "sweep": [
+      {
+        "alpha": 0.007812,
+        "alpha_frac": "1/128",
+        "temperature": 1.0079,
+        "ppl": 1.44,
+        "ppl_ratio": 0.0756,
+        "ppl_change_pct": -92.4
+      },
+      {
+        "alpha": 0.015625,
+        "alpha_frac": "1/64",
+        "temperature": 1.0159,
+        "ppl": 1.43,
+        "ppl_ratio": 0.0753,
+        "ppl_change_pct": -92.5
+      },
+      {
+        "alpha": 0.03125,
+        "alpha_frac": "1/32",
+        "temperature": 1.0323,
+        "ppl": 1.43,
+        "ppl_ratio": 0.0749,
+        "ppl_change_pct": -92.5
+      },
+      {
+        "alpha": 0.0625,
+        "alpha_frac": "1/16",
+        "temperature": 1.0667,
+        "ppl": 1.42,
+        "ppl_ratio": 0.0745,
+        "ppl_change_pct": -92.6
+      },
+      {
+        "alpha": 0.125,
+        "alpha_frac": "1/8",
+        "temperature": 1.1429,
+        "ppl": 1.44,
+        "ppl_ratio": 0.0756,
+        "ppl_change_pct": -92.4
+      },
+      {
+        "alpha": 0.1875,
+        "alpha_frac": "0.1875",
+        "temperature": 1.2308,
+        "ppl": 1.54,
+        "ppl_ratio": 0.0811,
+        "ppl_change_pct": -91.9
+      },
+      {
+        "alpha": 0.25,
+        "alpha_frac": "1/4",
+        "temperature": 1.3333,
+        "ppl": 1.76,
+        "ppl_ratio": 0.0923,
+        "ppl_change_pct": -90.8
+      }
+    ],
+    "best_alpha": {
+      "alpha": 0.0625,
+      "alpha_frac": "1/16",
+      "temperature": 1.0667,
+      "ppl": 1.42,
+      "ppl_ratio": 0.0745,
+      "ppl_change_pct": -92.6
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 216,
+  "n_layers": 24,
+  "n_heads": 14,
+  "total_heads": 336,
+  "ppl_full": 19.05,
+  "phase_distribution": {
+    "real": 313,
+    "virtual": 22,
+    "unsolvable": 1
+  },
+  "head_TG_stats": {
+    "mean": 84.04,
+    "std": 56.06,
+    "min": 0.0,
+    "max": 215.0
+  },
+  "experiments": [
+    {
+      "prune_ratio": 0.05,
+      "strategy": "tg",
+      "n_pruned": 16,
+      "ppl": 368.07,
+      "ppl_ratio": 19.3222,
+      "ppl_change_pct": 1832.2
+    },
+    {
+      "prune_ratio": 0.05,
+      "strategy": "entropy",
+      "n_pruned": 16,
+      "ppl": 25.36,
+      "ppl_ratio": 1.3313,
+      "ppl_change_pct": 33.1
+    },
+    {
+      "prune_ratio": 0.05,
+      "strategy": "random",
+      "n_pruned": 16,
+      "ppl": 20.19,
+      "ppl_ratio": 1.0601,
+      "ppl_change_pct": 6.0
+    },
+    {
+      "prune_ratio": 0.1,
+      "strategy": "tg",
+      "n_pruned": 33,
+      "ppl": 96258.12,
+      "ppl_ratio": 5053.0917,
+      "ppl_change_pct": 505209.2
+    },
+    {
+      "prune_ratio": 0.1,
+      "strategy": "entropy",
+      "n_pruned": 33,
+      "ppl": 29.03,
+      "ppl_ratio": 1.5237,
+      "ppl_change_pct": 52.4
+    },
+    {
+      "prune_ratio": 0.1,
+      "strategy": "random",
+      "n_pruned": 33,
+      "ppl": 22.82,
+      "ppl_ratio": 1.1981,
+      "ppl_change_pct": 19.8
+    },
+    {
+      "prune_ratio": 0.15,
+      "strategy": "tg",
+      "n_pruned": 50,
+      "ppl": 53680.2,
+      "ppl_ratio": 2817.9542,
+      "ppl_change_pct": 281695.4
+    },
+    {
+      "prune_ratio": 0.15,
+      "strategy": "entropy",
+      "n_pruned": 50,
+      "ppl": 34.07,
+      "ppl_ratio": 1.7885,
+      "ppl_change_pct": 78.8
+    },
+    {
+      "prune_ratio": 0.15,
+      "strategy": "random",
+      "n_pruned": 50,
+      "ppl": 26.28,
+      "ppl_ratio": 1.3797,
+      "ppl_change_pct": 38.0
+    },
+    {
+      "prune_ratio": 0.2,
+      "strategy": "tg",
+      "n_pruned": 67,
+      "ppl": 820954.69,
+      "ppl_ratio": 43096.1987,
+      "ppl_change_pct": 4309519.9
+    },
+    {
+      "prune_ratio": 0.2,
+      "strategy": "entropy",
+      "n_pruned": 67,
+      "ppl": 170.94,
+      "ppl_ratio": 8.9738,
+      "ppl_change_pct": 797.4
+    },
+    {
+      "prune_ratio": 0.2,
+      "strategy": "random",
+      "n_pruned": 67,
+      "ppl": 29.68,
+      "ppl_ratio": 1.5581,
+      "ppl_change_pct": 55.8
+    },
+    {
+      "prune_ratio": 0.3,
+      "strategy": "tg",
+      "n_pruned": 100,
+      "ppl": 112771.14,
+      "ppl_ratio": 5919.9461,
+      "ppl_change_pct": 591894.6
+    },
+    {
+      "prune_ratio": 0.3,
+      "strategy": "entropy",
+      "n_pruned": 100,
+      "ppl": 1413.51,
+      "ppl_ratio": 74.2025,
+      "ppl_change_pct": 7320.2
+    },
+    {
+      "prune_ratio": 0.3,
+      "strategy": "random",
+      "n_pruned": 100,
+      "ppl": 50.3,
+      "ppl_ratio": 2.6404,
+      "ppl_change_pct": 164.0
+    }
+  ]
+}

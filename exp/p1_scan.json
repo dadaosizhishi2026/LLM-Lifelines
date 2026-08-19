@@ -1,0 +1,278 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "ratios": [
+    0.95,
+    0.9,
+    0.85,
+    0.8,
+    0.75,
+    0.7,
+    0.65,
+    0.6,
+    0.55,
+    0.5,
+    0.45,
+    0.4,
+    0.35,
+    0.3,
+    0.25
+  ],
+  "texts": [
+    {
+      "n_tokens": 216,
+      "ppl_full": 19.05,
+      "sweep": [
+        {
+          "keep_ratio": 0.95,
+          "n_keep": 205,
+          "ppl": 20.32,
+          "ppl_ratio": 1.0665,
+          "delta_from_prev": 1.27,
+          "delta_pct": 6.6
+        },
+        {
+          "keep_ratio": 0.9,
+          "n_keep": 194,
+          "ppl": 23.06,
+          "ppl_ratio": 1.2106,
+          "delta_from_prev": 2.74,
+          "delta_pct": 13.5
+        },
+        {
+          "keep_ratio": 0.85,
+          "n_keep": 183,
+          "ppl": 23.63,
+          "ppl_ratio": 1.2406,
+          "delta_from_prev": 0.57,
+          "delta_pct": 2.5
+        },
+        {
+          "keep_ratio": 0.8,
+          "n_keep": 172,
+          "ppl": 26.16,
+          "ppl_ratio": 1.3732,
+          "delta_from_prev": 2.53,
+          "delta_pct": 10.7
+        },
+        {
+          "keep_ratio": 0.75,
+          "n_keep": 162,
+          "ppl": 30.33,
+          "ppl_ratio": 1.5923,
+          "delta_from_prev": 4.17,
+          "delta_pct": 16.0
+        },
+        {
+          "keep_ratio": 0.7,
+          "n_keep": 151,
+          "ppl": 33.18,
+          "ppl_ratio": 1.7418,
+          "delta_from_prev": 2.85,
+          "delta_pct": 9.4
+        },
+        {
+          "keep_ratio": 0.65,
+          "n_keep": 140,
+          "ppl": 45.34,
+          "ppl_ratio": 2.3804,
+          "delta_from_prev": 12.16,
+          "delta_pct": 36.7
+        },
+        {
+          "keep_ratio": 0.6,
+          "n_keep": 129,
+          "ppl": 51.63,
+          "ppl_ratio": 2.7104,
+          "delta_from_prev": 6.29,
+          "delta_pct": 13.9
+        },
+        {
+          "keep_ratio": 0.55,
+          "n_keep": 118,
+          "ppl": 61.58,
+          "ppl_ratio": 3.2325,
+          "delta_from_prev": 9.94,
+          "delta_pct": 19.3
+        },
+        {
+          "keep_ratio": 0.5,
+          "n_keep": 108,
+          "ppl": 70.73,
+          "ppl_ratio": 3.7132,
+          "delta_from_prev": 9.16,
+          "delta_pct": 14.9
+        },
+        {
+          "keep_ratio": 0.45,
+          "n_keep": 97,
+          "ppl": 106.97,
+          "ppl_ratio": 5.6153,
+          "delta_from_prev": 36.23,
+          "delta_pct": 51.2
+        },
+        {
+          "keep_ratio": 0.4,
+          "n_keep": 86,
+          "ppl": 132.02,
+          "ppl_ratio": 6.9304,
+          "delta_from_prev": 25.05,
+          "delta_pct": 23.4
+        },
+        {
+          "keep_ratio": 0.35,
+          "n_keep": 75,
+          "ppl": 158.67,
+          "ppl_ratio": 8.3294,
+          "delta_from_prev": 26.65,
+          "delta_pct": 20.2
+        },
+        {
+          "keep_ratio": 0.3,
+          "n_keep": 64,
+          "ppl": 168.35,
+          "ppl_ratio": 8.8374,
+          "delta_from_prev": 9.68,
+          "delta_pct": 6.1
+        },
+        {
+          "keep_ratio": 0.25,
+          "n_keep": 54,
+          "ppl": 220.47,
+          "ppl_ratio": 11.5737,
+          "delta_from_prev": 52.13,
+          "delta_pct": 31.0
+        }
+      ],
+      "jump_detected": true,
+      "jump_ratio": 0.45
+    },
+    {
+      "n_tokens": 130,
+      "ppl_full": 39.31,
+      "sweep": [
+        {
+          "keep_ratio": 0.95,
+          "n_keep": 123,
+          "ppl": 44.91,
+          "ppl_ratio": 1.1422,
+          "delta_from_prev": 5.59,
+          "delta_pct": 14.2
+        },
+        {
+          "keep_ratio": 0.9,
+          "n_keep": 117,
+          "ppl": 52.99,
+          "ppl_ratio": 1.3478,
+          "delta_from_prev": 8.08,
+          "delta_pct": 18.0
+        },
+        {
+          "keep_ratio": 0.85,
+          "n_keep": 110,
+          "ppl": 58.1,
+          "ppl_ratio": 1.4778,
+          "delta_from_prev": 5.11,
+          "delta_pct": 9.6
+        },
+        {
+          "keep_ratio": 0.8,
+          "n_keep": 104,
+          "ppl": 61.9,
+          "ppl_ratio": 1.5745,
+          "delta_from_prev": 3.8,
+          "delta_pct": 6.5
+        },
+        {
+          "keep_ratio": 0.75,
+          "n_keep": 97,
+          "ppl": 67.05,
+          "ppl_ratio": 1.7055,
+          "delta_from_prev": 5.15,
+          "delta_pct": 8.3
+        },
+        {
+          "keep_ratio": 0.7,
+          "n_keep": 91,
+          "ppl": 80.05,
+          "ppl_ratio": 2.0361,
+          "delta_from_prev": 13.0,
+          "delta_pct": 19.4
+        },
+        {
+          "keep_ratio": 0.65,
+          "n_keep": 84,
+          "ppl": 101.62,
+          "ppl_ratio": 2.5848,
+          "delta_from_prev": 21.57,
+          "delta_pct": 26.9
+        },
+        {
+          "keep_ratio": 0.6,
+          "n_keep": 78,
+          "ppl": 112.63,
+          "ppl_ratio": 2.8649,
+          "delta_from_prev": 11.01,
+          "delta_pct": 10.8
+        },
+        {
+          "keep_ratio": 0.55,
+          "n_keep": 71,
+          "ppl": 146.76,
+          "ppl_ratio": 3.7329,
+          "delta_from_prev": 34.12,
+          "delta_pct": 30.3
+        },
+        {
+          "keep_ratio": 0.5,
+          "n_keep": 65,
+          "ppl": 146.93,
+          "ppl_ratio": 3.7374,
+          "delta_from_prev": 0.18,
+          "delta_pct": 0.1
+        },
+        {
+          "keep_ratio": 0.45,
+          "n_keep": 58,
+          "ppl": 184.73,
+          "ppl_ratio": 4.6988,
+          "delta_from_prev": 37.79,
+          "delta_pct": 25.7
+        },
+        {
+          "keep_ratio": 0.4,
+          "n_keep": 52,
+          "ppl": 215.46,
+          "ppl_ratio": 5.4805,
+          "delta_from_prev": 30.73,
+          "delta_pct": 16.6
+        },
+        {
+          "keep_ratio": 0.35,
+          "n_keep": 45,
+          "ppl": 246.15,
+          "ppl_ratio": 6.2611,
+          "delta_from_prev": 30.69,
+          "delta_pct": 14.2
+        },
+        {
+          "keep_ratio": 0.3,
+          "n_keep": 39,
+          "ppl": 319.29,
+          "ppl_ratio": 8.1215,
+          "delta_from_prev": 73.14,
+          "delta_pct": 29.7
+        },
+        {
+          "keep_ratio": 0.25,
+          "n_keep": 32,
+          "ppl": 403.86,
+          "ppl_ratio": 10.2725,
+          "delta_from_prev": 84.57,
+          "delta_pct": 26.5
+        }
+      ],
+      "jump_detected": false,
+      "jump_ratio": null
+    }
+  ]
+}

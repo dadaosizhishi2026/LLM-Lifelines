@@ -1,0 +1,88 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 204,
+  "orig_perplexity": 18.06732749938965,
+  "strategies": {
+    "keep_0.75": {
+      "A_structural_importance": {
+        "mean_coverage": 0.9259,
+        "median_coverage": 0.9386,
+        "min_coverage": 0.75
+      },
+      "B_per_layer_importance": {
+        "mean_coverage": 0.942,
+        "median_coverage": 0.9572,
+        "min_coverage": 0.75
+      },
+      "C_streaming_llm": {
+        "mean_coverage": 0.7725,
+        "median_coverage": 0.8007,
+        "min_coverage": 0.4075
+      },
+      "D_random": {
+        "mean_coverage": 0.8391,
+        "median_coverage": 0.8432,
+        "min_coverage": 0.6266
+      },
+      "E_h2o_heavy_hitter": {
+        "mean_coverage": 0.942,
+        "median_coverage": 0.9572,
+        "min_coverage": 0.75
+      }
+    },
+    "keep_0.5": {
+      "A_structural_importance": {
+        "mean_coverage": 0.809,
+        "median_coverage": 0.827,
+        "min_coverage": 0.5
+      },
+      "B_per_layer_importance": {
+        "mean_coverage": 0.838,
+        "median_coverage": 0.8585,
+        "min_coverage": 0.5
+      },
+      "C_streaming_llm": {
+        "mean_coverage": 0.6069,
+        "median_coverage": 0.6183,
+        "min_coverage": 0.2126
+      },
+      "D_random": {
+        "mean_coverage": 0.3033,
+        "median_coverage": 0.3239,
+        "min_coverage": 0.0
+      },
+      "E_h2o_heavy_hitter": {
+        "mean_coverage": 0.838,
+        "median_coverage": 0.8585,
+        "min_coverage": 0.5
+      }
+    },
+    "keep_0.25": {
+      "A_structural_importance": {
+        "mean_coverage": 0.6536,
+        "median_coverage": 0.6687,
+        "min_coverage": 0.25
+      },
+      "B_per_layer_importance": {
+        "mean_coverage": 0.6852,
+        "median_coverage": 0.7052,
+        "min_coverage": 0.2502
+      },
+      "C_streaming_llm": {
+        "mean_coverage": 0.485,
+        "median_coverage": 0.473,
+        "min_coverage": 0.1092
+      },
+      "D_random": {
+        "mean_coverage": 0.1534,
+        "median_coverage": 0.1578,
+        "min_coverage": 0.0
+      },
+      "E_h2o_heavy_hitter": {
+        "mean_coverage": 0.6852,
+        "median_coverage": 0.7052,
+        "min_coverage": 0.2502
+      }
+    }
+  }
+}

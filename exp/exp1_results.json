@@ -1,0 +1,268 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_texts": 5,
+  "experiments": [
+    {
+      "keep_ratio": 1.0,
+      "strategies": {
+        "structural": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 29.67,
+          "ratio": 1.0,
+          "increase_pct": 0.0
+        },
+        "h2o": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 29.67,
+          "ratio": 1.0,
+          "increase_pct": 0.0
+        },
+        "recent": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 29.67,
+          "ratio": 1.0,
+          "increase_pct": 0.0
+        },
+        "random": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 29.67,
+          "ratio": 1.0,
+          "increase_pct": 0.0
+        }
+      }
+    },
+    {
+      "keep_ratio": 0.75,
+      "strategies": {
+        "structural": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 55.34,
+          "ratio": 1.8649,
+          "increase_pct": 86.5
+        },
+        "h2o": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 55.34,
+          "ratio": 1.8649,
+          "increase_pct": 86.5
+        },
+        "recent": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 100.49,
+          "ratio": 3.3864,
+          "increase_pct": 238.6
+        },
+        "random": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 82.77,
+          "ratio": 2.7894,
+          "increase_pct": 178.9
+        }
+      }
+    },
+    {
+      "keep_ratio": 0.5,
+      "strategies": {
+        "structural": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 134.84,
+          "ratio": 4.5439,
+          "increase_pct": 354.4
+        },
+        "h2o": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 134.84,
+          "ratio": 4.5439,
+          "increase_pct": 354.4
+        },
+        "recent": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 358.4,
+          "ratio": 12.0777,
+          "increase_pct": 1107.8
+        },
+        "random": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": NaN,
+          "ratio": NaN,
+          "increase_pct": NaN
+        }
+      }
+    },
+    {
+      "keep_ratio": 0.25,
+      "strategies": {
+        "structural": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 340.54,
+          "ratio": 11.4759,
+          "increase_pct": 1047.6
+        },
+        "h2o": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 340.54,
+          "ratio": 11.4759,
+          "increase_pct": 1047.6
+        },
+        "recent": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": 858.57,
+          "ratio": 28.9329,
+          "increase_pct": 2793.3
+        },
+        "random": {
+          "mean_ppl_full": 29.67,
+          "mean_ppl_compressed": NaN,
+          "ratio": NaN,
+          "increase_pct": NaN
+        }
+      }
+    }
+  ],
+  "layer_diagnosis": [
+    {
+      "layer": 0,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 1,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 2,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 3,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 4,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 5,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 6,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 7,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 8,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 9,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 10,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 11,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 12,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 13,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 14,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 15,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 16,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 17,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 18,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 19,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 20,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 21,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 22,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    },
+    {
+      "layer": 23,
+      "mean_T_G": 0.0,
+      "phase": "真实解相",
+      "recommendation": "compress_75%"
+    }
+  ]
+}

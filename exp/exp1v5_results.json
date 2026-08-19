@@ -1,0 +1,41 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 89,
+  "experiments": [
+    {
+      "keep_ratio": 0.75,
+      "n_keep": 66,
+      "mean_kl_all": 0.5393,
+      "mean_kl_second_half": 0.9248,
+      "top1_agreement": 0.6742,
+      "top5_agreement": 0.2584,
+      "max_kl": 3.855
+    },
+    {
+      "keep_ratio": 0.5,
+      "n_keep": 44,
+      "mean_kl_all": 1.4267,
+      "mean_kl_second_half": 2.0855,
+      "top1_agreement": 0.5056,
+      "top5_agreement": 0.2022,
+      "max_kl": 7.0637
+    },
+    {
+      "keep_ratio": 0.25,
+      "n_keep": 22,
+      "mean_kl_all": 2.6783,
+      "mean_kl_second_half": 3.2917,
+      "top1_agreement": 0.2921,
+      "top5_agreement": 0.1124,
+      "max_kl": 7.937
+    }
+  ],
+  "generation": {
+    "prompt": "The algebraic tension of a graph",
+    "full": " is defined as the difference between the number of edges and the number of vertices in the graph. Consider",
+    "compress_75": "ically represents the relationship between the two variables a b b b b b b b b b b b",
+    "compress_50": "ically represents the relationship between the algebraic and the the the the the the the the the the the",
+    "token_overlap_75": 0.1333,
+    "token_overlap_50": 0.2
+  }
+}

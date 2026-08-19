@@ -1,0 +1,7 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 216,
+  "n_layers": 24,
+  "ppl_full": 19.05,
+  "layer_TG": [
+    

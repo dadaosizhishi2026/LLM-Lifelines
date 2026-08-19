@@ -1,0 +1,387 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 216,
+  "theory": "KL(k) should increase as retention R(k)=(7/8)^k decreases",
+  "experiments": [
+    {
+      "keep_ratio": 0.9,
+      "n_keep": 194,
+      "fitted_slope": 0.278231,
+      "theory_slope": 0.133531,
+      "slope_ratio": 2.0836,
+      "kl_by_k": {
+        "0": {
+          "mean_kl": 0.0308,
+          "n_positions": 194
+        },
+        "1": {
+          "mean_kl": 0.6027,
+          "n_positions": 12
+        },
+        "2": {
+          "mean_kl": 0.8551,
+          "n_positions": 3
+        },
+        "3": {
+          "mean_kl": 3.6952,
+          "n_positions": 1
+        },
+        "4": {
+          "mean_kl": 1.9003,
+          "n_positions": 1
+        },
+        "5": {
+          "mean_kl": 0.5229,
+          "n_positions": 1
+        },
+        "6": {
+          "mean_kl": 0.7683,
+          "n_positions": 1
+        },
+        "7": {
+          "mean_kl": 0.9025,
+          "n_positions": 1
+        },
+        "8": {
+          "mean_kl": 3.6844,
+          "n_positions": 1
+        },
+        "9": {
+          "mean_kl": 1.5419,
+          "n_positions": 1
+        }
+      },
+      "bin_stats": [
+        {
+          "k_range": "0-0",
+          "n_pos": 194,
+          "mean_kl": 0.0308,
+          "mean_retention": 0.9781,
+          "theory_retention": 1.0
+        },
+        {
+          "k_range": "1-2",
+          "n_pos": 15,
+          "mean_kl": 0.6532,
+          "mean_retention": 0.6346,
+          "theory_retention": 0.8185
+        },
+        {
+          "k_range": "3-5",
+          "n_pos": 3,
+          "mean_kl": 2.0394,
+          "mean_retention": 0.2557,
+          "theory_retention": 0.5862
+        },
+        {
+          "k_range": "6-10",
+          "n_pos": 4,
+          "mean_kl": 1.7243,
+          "mean_retention": 0.2771,
+          "theory_retention": 0.3436
+        }
+      ],
+      "overall_mean_kl": 0.1333,
+      "overall_mean_retention": 0.9312
+    },
+    {
+      "keep_ratio": 0.75,
+      "n_keep": 162,
+      "fitted_slope": 0.164881,
+      "theory_slope": 0.133531,
+      "slope_ratio": 1.2348,
+      "kl_by_k": {
+        "0": {
+          "mean_kl": 0.0942,
+          "n_positions": 162
+        },
+        "1": {
+          "mean_kl": 0.3411,
+          "n_positions": 20
+        },
+        "2": {
+          "mean_kl": 1.4239,
+          "n_positions": 9
+        },
+        "3": {
+          "mean_kl": 1.6385,
+          "n_positions": 5
+        },
+        "4": {
+          "mean_kl": 3.2432,
+          "n_positions": 4
+        },
+        "5": {
+          "mean_kl": 0.6355,
+          "n_positions": 2
+        },
+        "6": {
+          "mean_kl": 0.6636,
+          "n_positions": 1
+        },
+        "7": {
+          "mean_kl": 3.8609,
+          "n_positions": 1
+        },
+        "8": {
+          "mean_kl": 0.3837,
+          "n_positions": 1
+        },
+        "9": {
+          "mean_kl": 4.2687,
+          "n_positions": 1
+        },
+        "10": {
+          "mean_kl": 1.7582,
+          "n_positions": 1
+        },
+        "11": {
+          "mean_kl": 0.8919,
+          "n_positions": 1
+        },
+        "12": {
+          "mean_kl": 1.5979,
+          "n_positions": 1
+        },
+        "13": {
+          "mean_kl": 3.5091,
+          "n_positions": 1
+        },
+        "14": {
+          "mean_kl": 3.9195,
+          "n_positions": 1
+        },
+        "15": {
+          "mean_kl": 1.9024,
+          "n_positions": 1
+        },
+        "16": {
+          "mean_kl": 0.511,
+          "n_positions": 1
+        },
+        "17": {
+          "mean_kl": 1.3363,
+          "n_positions": 1
+        },
+        "18": {
+          "mean_kl": 3.182,
+          "n_positions": 1
+        },
+        "19": {
+          "mean_kl": 1.8482,
+          "n_positions": 1
+        }
+      },
+      "bin_stats": [
+        {
+          "k_range": "0-0",
+          "n_pos": 162,
+          "mean_kl": 0.0942,
+          "mean_retention": 0.9307,
+          "theory_retention": 1.0
+        },
+        {
+          "k_range": "1-2",
+          "n_pos": 29,
+          "mean_kl": 0.6772,
+          "mean_retention": 0.6245,
+          "theory_retention": 0.8185
+        },
+        {
+          "k_range": "3-5",
+          "n_pos": 11,
+          "mean_kl": 2.0396,
+          "mean_retention": 0.3023,
+          "theory_retention": 0.5862
+        },
+        {
+          "k_range": "6-10",
+          "n_pos": 5,
+          "mean_kl": 2.187,
+          "mean_retention": 0.2808,
+          "theory_retention": 0.3436
+        },
+        {
+          "k_range": "11-20",
+          "n_pos": 9,
+          "mean_kl": 2.0776,
+          "mean_retention": 0.2081,
+          "theory_retention": 0.1262
+        }
+      ],
+      "overall_mean_kl": 0.4026,
+      "overall_mean_retention": 0.8124
+    },
+    {
+      "keep_ratio": 0.5,
+      "n_keep": 108,
+      "fitted_slope": 0.112631,
+      "theory_slope": 0.133531,
+      "slope_ratio": 0.8435,
+      "kl_by_k": {
+        "0": {
+          "mean_kl": 0.5758,
+          "n_positions": 108
+        },
+        "1": {
+          "mean_kl": 0.7327,
+          "n_positions": 29
+        },
+        "2": {
+          "mean_kl": 2.5159,
+          "n_positions": 17
+        },
+        "3": {
+          "mean_kl": 2.6358,
+          "n_positions": 12
+        },
+        "4": {
+          "mean_kl": 2.2043,
+          "n_positions": 7
+        },
+        "5": {
+          "mean_kl": 1.6463,
+          "n_positions": 4
+        },
+        "6": {
+          "mean_kl": 2.6817,
+          "n_positions": 4
+        },
+        "7": {
+          "mean_kl": 2.0753,
+          "n_positions": 4
+        },
+        "8": {
+          "mean_kl": 2.1116,
+          "n_positions": 3
+        },
+        "9": {
+          "mean_kl": 1.5417,
+          "n_positions": 3
+        },
+        "10": {
+          "mean_kl": 3.8994,
+          "n_positions": 2
+        },
+        "11": {
+          "mean_kl": 2.6227,
+          "n_positions": 2
+        },
+        "12": {
+          "mean_kl": 3.3578,
+          "n_positions": 2
+        },
+        "13": {
+          "mean_kl": 3.6999,
+          "n_positions": 2
+        },
+        "14": {
+          "mean_kl": 2.0616,
+          "n_positions": 2
+        },
+        "15": {
+          "mean_kl": 2.908,
+          "n_positions": 2
+        },
+        "16": {
+          "mean_kl": 4.0748,
+          "n_positions": 1
+        },
+        "17": {
+          "mean_kl": 2.272,
+          "n_positions": 1
+        },
+        "18": {
+          "mean_kl": 3.599,
+          "n_positions": 1
+        },
+        "19": {
+          "mean_kl": 3.3525,
+          "n_positions": 1
+        },
+        "20": {
+          "mean_kl": 1.2191,
+          "n_positions": 1
+        },
+        "21": {
+          "mean_kl": 1.5775,
+          "n_positions": 1
+        },
+        "22": {
+          "mean_kl": 3.8304,
+          "n_positions": 1
+        },
+        "23": {
+          "mean_kl": 3.0567,
+          "n_positions": 1
+        },
+        "24": {
+          "mean_kl": 2.0571,
+          "n_positions": 1
+        },
+        "25": {
+          "mean_kl": 2.3312,
+          "n_positions": 1
+        },
+        "26": {
+          "mean_kl": 1.7663,
+          "n_positions": 1
+        },
+        "27": {
+          "mean_kl": 3.8463,
+          "n_positions": 1
+        },
+        "28": {
+          "mean_kl": 2.0881,
+          "n_positions": 1
+        }
+      },
+      "bin_stats": [
+        {
+          "k_range": "0-0",
+          "n_pos": 108,
+          "mean_kl": 0.5758,
+          "mean_retention": 0.6718,
+          "theory_retention": 1.0
+        },
+        {
+          "k_range": "1-2",
+          "n_pos": 46,
+          "mean_kl": 1.3917,
+          "mean_retention": 0.4309,
+          "theory_retention": 0.8185
+        },
+        {
+          "k_range": "3-5",
+          "n_pos": 23,
+          "mean_kl": 2.3324,
+          "mean_retention": 0.1717,
+          "theory_retention": 0.5862
+        },
+        {
+          "k_range": "6-10",
+          "n_pos": 16,
+          "mean_kl": 2.3617,
+          "mean_retention": 0.1632,
+          "theory_retention": 0.3436
+        },
+        {
+          "k_range": "11-20",
+          "n_pos": 15,
+          "mean_kl": 2.9212,
+          "mean_retention": 0.0869,
+          "theory_retention": 0.1262
+        },
+        {
+          "k_range": "21-50",
+          "n_pos": 8,
+          "mean_kl": 2.5692,
+          "mean_retention": 0.1021,
+          "theory_retention": 0.0087
+        }
+      ],
+      "overall_mean_kl": 1.3056,
+      "overall_mean_retention": 0.4679
+    }
+  ]
+}

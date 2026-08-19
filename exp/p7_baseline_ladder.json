@@ -1,0 +1,61 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "mem_limit_gb": 7.3,
+  "model_mem_gb": 2.85,
+  "dtype": "float32",
+  "attn": "eager",
+  "ladder": [
+    {
+      "target_tokens": 1024,
+      "actual_tokens": 1024,
+      "status": "ok",
+      "ppl": 1.93,
+      "forward_time_s": 5.07,
+      "tokens_per_sec": 202.0,
+      "mem_before_gb": 2.86,
+      "mem_after_gb": 3.71,
+      "mem_delta_gb": 0.86,
+      "est_kv_gb": 0.18
+    },
+    {
+      "target_tokens": 2048,
+      "actual_tokens": 2048,
+      "status": "ok",
+      "ppl": 1.39,
+      "forward_time_s": 14.27,
+      "tokens_per_sec": 143.5,
+      "mem_before_gb": 3.06,
+      "mem_after_gb": 5.47,
+      "mem_delta_gb": 2.4,
+      "est_kv_gb": 0.35
+    },
+    {
+      "target_tokens": 4096,
+      "actual_tokens": 4096,
+      "status": "skipped_mem_estimate",
+      "est_kv_gb": 0.7,
+      "est_attn_gb": 22.55
+    },
+    {
+      "target_tokens": 8192,
+      "actual_tokens": 8192,
+      "status": "skipped_mem_estimate",
+      "est_kv_gb": 1.41,
+      "est_attn_gb": 90.19
+    },
+    {
+      "target_tokens": 16384,
+      "actual_tokens": 16384,
+      "status": "skipped_mem_estimate",
+      "est_kv_gb": 2.82,
+      "est_attn_gb": 360.78
+    },
+    {
+      "target_tokens": 32768,
+      "actual_tokens": 32768,
+      "status": "skipped_mem_estimate",
+      "est_kv_gb": 5.64,
+      "est_attn_gb": 1443.11
+    }
+  ]
+}

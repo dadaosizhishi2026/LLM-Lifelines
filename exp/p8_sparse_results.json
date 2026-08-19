@@ -1,0 +1,86 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "mem_limit_gb": 7.3,
+  "runs": [
+    {
+      "N": 4096,
+      "window": 410,
+      "n_global": 41,
+      "sparsity": "10%",
+      "status": "error:ValueError",
+      "error": "too many values to unpack (expected 2, got 3)"
+    },
+    {
+      "N": 8192,
+      "window": 820,
+      "n_global": 82,
+      "sparsity": "10%",
+      "status": "error:ValueError",
+      "error": "too many values to unpack (expected 2, got 3)"
+    },
+    {
+      "N": 8192,
+      "window": 410,
+      "n_global": 41,
+      "sparsity": "5%",
+      "status": "error:ValueError",
+      "error": "too many values to unpack (expected 2, got 3)"
+    },
+    {
+      "N": 16384,
+      "window": 820,
+      "n_global": 82,
+      "sparsity": "5%",
+      "status": "error:ValueError",
+      "error": "too many values to unpack (expected 2, got 3)"
+    },
+    {
+      "N": 16384,
+      "window": 164,
+      "n_global": 16,
+      "sparsity": "1%",
+      "status": "error:ValueError",
+      "error": "too many values to unpack (expected 2, got 3)"
+    },
+    {
+      "N": 32768,
+      "window": 328,
+      "n_global": 33,
+      "sparsity": "1%",
+      "status": "error:ValueError",
+      "error": "too many values to unpack (expected 2, got 3)"
+    },
+    {
+      "N": 32768,
+      "window": 164,
+      "n_global": 16,
+      "sparsity": "0.5%",
+      "status": "error:ValueError",
+      "error": "too many values to unpack (expected 2, got 3)"
+    },
+    {
+      "N": 65536,
+      "window": 328,
+      "n_global": 33,
+      "sparsity": "0.5%",
+      "status": "error:ValueError",
+      "error": "too many values to unpack (expected 2, got 3)"
+    },
+    {
+      "N": 65536,
+      "window": 66,
+      "n_global": 7,
+      "sparsity": "0.1%",
+      "status": "error:ValueError",
+      "error": "too many values to unpack (expected 2, got 3)"
+    },
+    {
+      "N": 131072,
+      "window": 131,
+      "n_global": 13,
+      "sparsity": "0.1%",
+      "status": "error:RuntimeError",
+      "error": "[enforce fail at alloc_cpu.cpp:117] data. DefaultCPUAllocator: not enough memory: you tried to allocate 68719476736 bytes."
+    }
+  ]
+}

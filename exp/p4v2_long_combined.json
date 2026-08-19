@@ -1,0 +1,159 @@
+{
+  "model": "Qwen2.5-0.5B",
+  "n_tokens": 1673,
+  "ppl_full": 1.72,
+  "layer_TG": [
+    11.61,
+    30.12,
+    29.1,
+    750.78,
+    739.89,
+    857.04,
+    685.35,
+    825.47,
+    343.88,
+    718.38,
+    598.38,
+    856.25,
+    523.79,
+    542.91,
+    622.65,
+    587.9,
+    778.26,
+    1045.11,
+    908.97,
+    691.65,
+    1044.44,
+    923.41,
+    117.19,
+    91.5
+  ],
+  "experiments": [
+    {
+      "ratio_avg": 0.9,
+      "mode": "均匀",
+      "ppl": 1.76,
+      "ppl_ratio": 1.0223
+    },
+    {
+      "ratio_avg": 0.9,
+      "mode": "T(G)引导",
+      "ppl": 1.74,
+      "ppl_ratio": 1.0098
+    },
+    {
+      "ratio_avg": 0.8,
+      "mode": "均匀",
+      "ppl": 1.86,
+      "ppl_ratio": 1.0801
+    },
+    {
+      "ratio_avg": 0.8,
+      "mode": "T(G)引导",
+      "ppl": 1.81,
+      "ppl_ratio": 1.0487
+    },
+    {
+      "ratio_avg": 0.75,
+      "mode": "均匀",
+      "ppl": 1.92,
+      "ppl_ratio": 1.114
+    },
+    {
+      "ratio_avg": 0.75,
+      "mode": "T(G)引导",
+      "ppl": 1.87,
+      "ppl_ratio": 1.0833
+    },
+    {
+      "ratio_avg": 0.7,
+      "mode": "均匀",
+      "ppl": 1.99,
+      "ppl_ratio": 1.1533
+    },
+    {
+      "ratio_avg": 0.7,
+      "mode": "T(G)引导",
+      "ppl": 1.93,
+      "ppl_ratio": 1.1212
+    },
+    {
+      "ratio_avg": 0.6,
+      "mode": "均匀",
+      "ppl": 2.19,
+      "ppl_ratio": 1.2744
+    },
+    {
+      "ratio_avg": 0.6,
+      "mode": "T(G)引导",
+      "ppl": 2.11,
+      "ppl_ratio": 1.2245
+    },
+    {
+      "ratio_avg": 0.5,
+      "mode": "均匀",
+      "ppl": 2.9,
+      "ppl_ratio": 1.686
+    },
+    {
+      "ratio_avg": 0.5,
+      "mode": "T(G)引导",
+      "ppl": 2.7,
+      "ppl_ratio": 1.5661
+    },
+    {
+      "ratio_avg": 0.8,
+      "mode": "T(G)预算_only",
+      "ppl": 1.81,
+      "ppl_ratio": 1.0487
+    },
+    {
+      "ratio_avg": 0.8,
+      "mode": "T(G)预算+T(G)温度",
+      "ppl": 1.81,
+      "ppl_ratio": 1.0506
+    },
+    {
+      "ratio_avg": 0.8,
+      "mode": "均匀预算+均匀温度",
+      "ppl": 1.85,
+      "ppl_ratio": 1.077
+    },
+    {
+      "ratio_avg": 0.75,
+      "mode": "T(G)预算_only",
+      "ppl": 1.87,
+      "ppl_ratio": 1.0833
+    },
+    {
+      "ratio_avg": 0.75,
+      "mode": "T(G)预算+T(G)温度",
+      "ppl": 1.87,
+      "ppl_ratio": 1.0846
+    },
+    {
+      "ratio_avg": 0.75,
+      "mode": "均匀预算+均匀温度",
+      "ppl": 1.91,
+      "ppl_ratio": 1.1075
+    },
+    {
+      "ratio_avg": 0.7,
+      "mode": "T(G)预算_only",
+      "ppl": 1.93,
+      "ppl_ratio": 1.1212
+    },
+    {
+      "ratio_avg": 0.7,
+      "mode": "T(G)预算+T(G)温度",
+      "ppl": 1.93,
+      "ppl_ratio": 1.1208
+    },
+    {
+      "ratio_avg": 0.7,
+      "mode": "均匀预算+均匀温度",
+      "ppl": 1.97,
+      "ppl_ratio": 1.1432
+    }
+  ]
+}
