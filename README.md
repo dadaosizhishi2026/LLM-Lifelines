@@ -1,5 +1,9 @@
 # 大模型的"命根子"：拆掉10%，它崩溃136倍
 
+> **About · 关于作者** — Maintained by the discoverer of a special mathematical system (meta-structure framework). Every paper ships with its own evidence chain: data, code, and an independent validator. Nothing here asks you to trust; everything can be checked. / 由特殊数学体系的发现者维护。每篇论文自带完整证据链（数据、代码、独立验证器）。这里不要求你信任，一切皆可验证。
+
+
+
 *Part of **云韶AI研究院（YUNSHAO AI Research）** 系列 — 元结构框架在大模型注意力（large language model attention）领域的投影。本系列共5篇独立论文，各自自成证据链，详见文末「本系列全貌」。*
 
 
